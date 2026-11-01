@@ -1,0 +1,28 @@
+Software,Version,Role
+R,4.6.1,Statistical computing environment
+CmdStan (Stan),2.40.0,Hamiltonian Monte Carlo sampling (NUTS)
+R package brms,2.23.0,Bayesian logistic models (Stan interface)
+R package cmdstanr,0.9.0,CmdStan backend for brms
+R package posterior,1.7.0,"Posterior draws, R-hat, ESS and Monte Carlo standard errors"
+R package splines,4.6.1,Natural cubic spline for age (sensitivity analysis E)
+R package WeightedROC,2026.8.27,Weighted ROC curves and AUC
+R package data.table,1.18.6.1,Data handling (auxiliary)
+R package readr,2.2.0,Reading the semicolon-delimited microdata file (auxiliary)
+R package arrow,26.0.0,Parquet storage of intermediate data (auxiliary)
+R package jsonlite,2.0.0,Machine-readable numbers file (auxiliary)
+R package future,1.80.0,Parallel computation (auxiliary)
+R package furrr,0.4.0,Parallel computation (auxiliary)
+R package flextable,0.10.3,Word tables (auxiliary)
+R package officer,0.7.7,Word documents (auxiliary)
+R package openxlsx,4.2.9,Excel tables (auxiliary)
+R package rlang,1.3.0,Hashing of cache keys (auxiliary)
+Python,3.13.16,Figures
+matplotlib,3.11.2,Figures
+numpy,2.5.4,Arrays (auxiliary)
+pandas,3.0.6,Reading figure data (auxiliary)
+openpyxl,3.1.5,Excel subscripts (auxiliary)
+fonttools,4.67.0,Font embedding (auxiliary)
+pillow,12.3.0,TIFF output (auxiliary)
+
+"Note: Auxiliary packages support data handling and output only. Full session information: sessionInfo.txt; Python environment: python_ortam.txt; citations: paket_atiflari.txt."
+

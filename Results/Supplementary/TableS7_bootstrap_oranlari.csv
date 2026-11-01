@@ -1,0 +1,11 @@
+Quantity,Difference > bound,|Difference| ≤ bound,Difference < −bound
+"M1 − M0, bound ±0.5 per 1,000",57.3,35.3,7.4
+"M1 − M0, bound ±1.0 per 1,000",32.8,65.8,1.5
+"M1 − M0, bound ±2.0 per 1,000",4.6,95.4,0.0
+"M2 − M1, bound ±0.5 per 1,000",79.7,18.6,1.7
+"M2 − M1, bound ±1.0 per 1,000",59.0,40.8,0.2
+"M2 − M1, bound ±2.0 per 1,000",16.3,83.7,0.0
+
+"Note: Proportions of the 2,000 paired household bootstrap replicates falling in each region; they describe sampling variability conditional on the fixed model fits and are not posterior probabilities. Bootstrap medians: M1 − M0 0.64, M2 − M1 1.19."
+"Note: Model-based distribution (1,000 thinned outer-fold posterior draws of the first fold assignment, with draw-specific rankings and selections, conditional on the fixed data and fold assignments): Δ(0.20) median 0.64 (2.5th–97.5th percentiles −0.51 to 1.93) per 1,000."
+

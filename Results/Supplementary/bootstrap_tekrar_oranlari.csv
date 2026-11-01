@@ -1,0 +1,7 @@
+karsilastirma,c,sinir,buyuk,icinde,kucuk,not
+M1 − M0,0.2,0.5,0.573,0.353,0.074,"Bootstrap replicate proportions (household cluster bootstrap, B = 2,000); not posterior probabilities"
+M1 − M0,0.2,1,0.328,0.6575,0.0145,"Bootstrap replicate proportions (household cluster bootstrap, B = 2,000); not posterior probabilities"
+M1 − M0,0.2,2,0.046,0.954,0,"Bootstrap replicate proportions (household cluster bootstrap, B = 2,000); not posterior probabilities"
+M2 − M1,0.2,0.5,0.7965,0.1865,0.017,"Bootstrap replicate proportions (household cluster bootstrap, B = 2,000); not posterior probabilities"
+M2 − M1,0.2,1,0.59,0.408,0.002,"Bootstrap replicate proportions (household cluster bootstrap, B = 2,000); not posterior probabilities"
+M2 − M1,0.2,2,0.163,0.837,0,"Bootstrap replicate proportions (household cluster bootstrap, B = 2,000); not posterior probabilities"

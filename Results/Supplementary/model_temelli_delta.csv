@@ -1,0 +1,4 @@
+buyukluk,medyan,alt,ust,cekilis,etiket
+D_M0(0.20),25.3090816508217,24.4868121599595,26.151104193758,1000,"Model-based distribution over 1,000 thinned outer-fold posterior draws (repeat 1), conditional on the fixed data and fold assignments; not a bootstrap interval"
+D_M1(0.20),25.9784786772062,25.0897563067405,26.8201557998007,1000,"Model-based distribution over 1,000 thinned outer-fold posterior draws (repeat 1), conditional on the fixed data and fold assignments; not a bootstrap interval"
+Delta(0.20) = M1 − M0,0.641152956653508,-0.511367687624235,1.92668954106435,1000,"Model-based distribution over 1,000 thinned outer-fold posterior draws (repeat 1), conditional on the fixed data and fold assignments; not a bootstrap interval"

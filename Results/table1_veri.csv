@@ -1,0 +1,53 @@
+degisken,duzey,etiket,tur,n_toplam,yuzde_toplam,n_pozitif,yuzde_pozitif,n_negatif,yuzde_negatif,ort_toplam,ort_pozitif,ort_negatif,degisken_etiket
+yas_g,1,18–34,kategori,3443,29.1238388141177,116,20.4471318850789,3327,29.5393444338689,,,,"Age group, years"
+yas_g,2,35–49,kategori,3673,28.0784670857222,128,21.6242487476959,3545,28.3875433300258,,,,"Age group, years"
+yas_g,3,50–64,kategori,3351,25.1674516288251,158,26.5482086834221,3193,25.101330654544,,,,"Age group, years"
+yas_g,4,≥ 65,kategori,2375,17.6302424713359,179,31.3804106838031,2196,16.9717815815611,,,,"Age group, years"
+cins,1,Men,kategori,5608,44.5712860725628,182,32.4881965309915,5426,45.1499147677048,,,,Sex
+cins,2,Women,kategori,7234,55.4287139274377,399,67.5118034690085,6835,54.8500852322947,,,,Sex
+egitim,1,Primary or less,kategori,5871,45.4733759668755,374,64.6692967168454,5497,44.5541317175133,,,,Education
+egitim,2,Lower secondary,kategori,1544,12.3486390944449,52,9.39593709320086,1492,12.4900365491476,,,,Education
+egitim,3,Upper secondary,kategori,2811,22.1042042905555,90,14.8144892805995,2721,22.4532903640847,,,,Education
+egitim,4,Tertiary,kategori,2616,20.0737806481247,65,11.1202769093542,2551,20.5025413692542,,,,Education
+gelir5,1,1 (lowest),kategori,2745,20.5563235194368,224,37.0533461842428,2521,19.7663226951084,,,,Household income group
+gelir5,2,2,kategori,2617,20.0968723998319,130,21.7558942801074,2487,20.0174260245901,,,,Household income group
+gelir5,3,3,kategori,2519,19.1663242008119,88,15.4116918243114,2431,19.3461240794172,,,,Household income group
+gelir5,4,4,kategori,2531,20.4178894637655,81,14.3675147052103,2450,20.7076266571893,,,,Household income group
+gelir5,5,5 (highest),kategori,2430,19.7625904161544,58,11.411553006128,2372,20.1625005436944,,,,Household income group
+kronik,0,0,kategori,4796,38.3356947069571,69,11.6973182174079,4727,39.6113393983109,,,,Number of reported chronic conditions other than depression and substance-use disorder
+kronik,1,1,kategori,2687,20.6727215783812,55,10.0435010535733,2632,21.1817281516991,,,,Number of reported chronic conditions other than depression and substance-use disorder
+kronik,2,2,kategori,1812,13.9168911703609,67,11.5834696023288,1745,14.0286328464017,,,,Number of reported chronic conditions other than depression and substance-use disorder
+kronik,3,≥ 3,kategori,3547,27.0746925443016,390,66.67571112669,3157,25.1782996035879,,,,Number of reported chronic conditions other than depression and substance-use disorder
+meyve,7,Daily or more,kategori,5161,39.5942945654457,175,29.9099967208135,4986,40.0580511738798,,,,Fruit consumption frequency
+meyve,3,4–6 times per week,kategori,3112,24.3619431694975,96,16.8075521415609,3016,24.7237039102458,,,,Fruit consumption frequency
+meyve,4,1–3 times per week,kategori,3536,27.7622251774829,193,33.0366598127071,3343,27.5096458003213,,,,Fruit consumption frequency
+meyve,5,Less than once a week,kategori,825,6.58827370348103,88,15.3506503370851,737,6.168665577562,,,,Fruit consumption frequency
+meyve,6,Never,kategori,208,1.69326338409379,29,4.89514098783338,179,1.53993353799078,,,,Fruit consumption frequency
+sebze,7,Daily or more,kategori,5674,43.8414578956614,223,37.7429366323283,5451,44.1335007038153,,,,Vegetable or salad consumption frequency
+sebze,3,4–6 times per week,kategori,3687,28.6618564899132,144,24.2521037979905,3543,28.8730284287824,,,,Vegetable or salad consumption frequency
+sebze,4,1–3 times per week,kategori,3005,23.6269996633547,156,27.556611223286,2849,23.4388204727992,,,,Vegetable or salad consumption frequency
+sebze,5,Less than once a week,kategori,379,3.10274642704254,41,7.56132931185465,338,2.88923613334257,,,,Vegetable or salad consumption frequency
+sebze,6,Never,kategori,97,0.766939524029029,17,2.8870190345405,80,0.665414261260331,,,,Vegetable or salad consumption frequency
+yurume,ort_sd,"Days per week, mean (SD)",ortalama,12842,,581,,12261,,4.10 (2.86),3.20 (3.01),4.14 (2.85),Days per week walking ≥ 10 min for transport
+yurume,0,None (0 days),kategori,2917,23.042295442872,205,36.3903990927963,2712,22.4030884113415,,,,Days per week walking ≥ 10 min for transport
+bisiklet,ort_sd,"Days per week, mean (SD)",ortalama,12842,,581,,12261,,0.13 (0.77),0.13 (0.85),0.13 (0.77),Days per week cycling ≥ 10 min for transport
+bisiklet,0,None (0 days),kategori,12323,95.8302328696192,563,96.8531997648662,11760,95.7812455640337,,,,Days per week cycling ≥ 10 min for transport
+spor,ort_sd,"Days per week, mean (SD)",ortalama,12842,,581,,12261,,0.22 (0.95),0.17 (0.91),0.22 (0.95),"Days per week of sport, fitness or leisure activity ≥ 10 min"
+spor,0,None (0 days),kategori,12011,93.3547991066327,559,96.3797693608968,11452,93.2099409074892,,,,"Days per week of sport, fitness or leisure activity ≥ 10 min"
+faaliyet,1,Mostly sitting or standing,kategori,6608,51.4327382770945,375,65.1127252217696,6233,50.7776381912981,,,,Physical demand of daily activities
+faaliyet,2,Mostly walking or moderate effort,kategori,5688,43.963000558885,184,30.8385677185947,5504,44.591496559244,,,,Physical demand of daily activities
+faaliyet,3,Mostly heavy labor or physically demanding work,kategori,546,4.60426116402096,22,4.04870705963565,524,4.63086524945746,,,,Physical demand of daily activities
+yakin,1,None,kategori,494,3.82205177308152,45,7.51926719465305,449,3.64500144769205,,,,People to count on in a serious personal problem
+yakin,2,1–2,kategori,4267,33.2016273105433,219,37.3337883321967,4048,33.0037485369188,,,,People to count on in a serious personal problem
+yakin,3,3–5,kategori,5070,39.3490196908474,211,36.6434954019927,4859,39.47858042807,,,,People to count on in a serious personal problem
+yakin,4,≥ 6,kategori,3011,23.6273012255283,106,18.5034490711575,2905,23.8726695873188,,,,People to count on in a serious personal problem
+ilgi,5,A lot,kategori,1240,9.71355398123714,72,13.8882330151409,1168,9.51363912719942,,,,Interest and concern shown by others
+ilgi,4,Some,kategori,3427,26.4049264481115,122,20.6959578005513,3305,26.6783145636079,,,,Interest and concern shown by others
+ilgi,3,Uncertain,kategori,5751,44.7903639024843,240,40.2086861587713,5511,45.0097688986387,,,,Interest and concern shown by others
+ilgi,2,Little,kategori,1767,14.0270523478226,97,17.0643923327268,1670,13.8816017934653,,,,Interest and concern shown by others
+ilgi,6,None,kategori,657,5.06410332034521,50,8.14273069280967,607,4.91667561708844,,,,Interest and concern shown by others
+komsu,1,Very easy,kategori,2186,16.9661130874012,106,17.9291780162581,2080,16.919994335967,,,,Ease of getting practical help from neighbors
+komsu,2,Easy,kategori,6912,53.6532525878626,241,41.4367586030758,6671,54.2382696854604,,,,Ease of getting practical help from neighbors
+komsu,3,Possible,kategori,2543,19.9575046989253,106,18.4535076714163,2437,20.029527324805,,,,Ease of getting practical help from neighbors
+komsu,4,Difficult,kategori,893,6.92998889000183,85,14.8422987734651,808,6.55108831762081,,,,Ease of getting practical help from neighbors
+komsu,5,Very difficult,kategori,308,2.49314073580974,43,7.33825693578457,265,2.2611203361462,,,,Ease of getting practical help from neighbors

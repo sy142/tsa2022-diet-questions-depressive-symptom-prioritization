@@ -1,0 +1,22 @@
+Item,Value
+Likelihood,Bernoulli with logit link; unweighted training (weighted pseudo-likelihood only in sensitivity analysis C)
+Intercept prior,"Student-t(3, 0, 2.5) on the intercept of the centered design matrix (brms default parameterization)"
+Coefficient priors,"Normal with SD 1 for all indicator coefficients; normal with SD 1/(2 SD_x) per day for the three day-count variables in M2 (day-count SD 2.86, 0.77, 0.95; prior SD 0.175, 0.648, 0.527), chosen by prior predictive check before model fitting"
+Parameters and events,"M0 14, M1 22, M2 38 coefficients plus intercept; 581 events (41.5, 26.4 and 15.3 events per coefficient)"
+"Prior predictive, M0",weighted positive share median 0.49 (5th–95th percentile 0.009–0.986); median between-person SD of x'β 1.47; median share of adults with p < 0.001 or > 0.999: 0.000
+"Prior predictive, M1",weighted positive share median 0.48 (5th–95th percentile 0.010–0.989); median between-person SD of x'β 1.75; median share of adults with p < 0.001 or > 0.999: 0.001
+"Prior predictive, M2 with prior SD 1 per day (not used)",weighted positive share median 0.50 (5th–95th percentile 0.051–0.947); median between-person SD of x'β 3.32; median share of adults with p < 0.001 or > 0.999: 0.103
+"Prior predictive, M2 with prior SD 1/(2 SD) per day (used)",weighted positive share median 0.50 (5th–95th percentile 0.023–0.974); median between-person SD of x'β 2.40; median share of adults with p < 0.001 or > 0.999: 0.022
+Sampling,"4 chains; full-data models 1,000 warm-up + 1,500 sampling iterations per chain; cross-validation models 1,000 + 6,000 (increased from 1,500 under the prespecified Monte Carlo error rule); adapt_delta 0.9; CmdStan via cmdstanr"
+Full-data M0,"max R-hat 1.0020; min bulk ESS 3,890; min tail ESS 4,069; divergent transitions 0; min E-BFMI 0.97"
+Full-data M1,"max R-hat 1.0012; min bulk ESS 4,266; min tail ESS 4,275; divergent transitions 0; min E-BFMI 0.98"
+Full-data M2,"max R-hat 1.0030; min bulk ESS 3,510; min tail ESS 3,997; divergent transitions 0; min E-BFMI 0.94"
+"Cross-validation fits, main models, five fold assignments (n = 150)","max R-hat 1.0011; min bulk ESS 12,673; min tail ESS 14,321; divergent transitions 0; min E-BFMI 0.95; refits needed 0; max MCSE of an outer-fold predicted probability 0.00082"
+"Cross-validation fits, weighted training (n = 20)","max R-hat 1.0008; min bulk ESS 12,994; min tail ESS 15,106; divergent transitions 0; min E-BFMI 0.97; refits needed 0; max MCSE of an outer-fold predicted probability 0.00047"
+"Cross-validation fits, prior SD 2.5 (n = 20)","max R-hat 1.0007; min bulk ESS 12,699; min tail ESS 14,992; divergent transitions 0; min E-BFMI 0.97; refits needed 0; max MCSE of an outer-fold predicted probability 0.00052"
+"Cross-validation fits, age spline (n = 20)","max R-hat 1.0014; min bulk ESS 15,954; min tail ESS 16,200; divergent transitions 0; min E-BFMI 0.96; refits needed 0; max MCSE of an outer-fold predicted probability 0.00051"
+"Cross-validation fits, depression added (n = 20)","max R-hat 1.0007; min bulk ESS 14,601; min tail ESS 15,284; divergent transitions 0; min E-BFMI 0.98; refits needed 0; max MCSE of an outer-fold predicted probability 0.00053"
+
+"Note: Convergence criteria: R-hat ≤ 1.01, bulk and tail effective sample size ≥ 400, no divergent transitions and E-BFMI > 0.3 for every model; all were met."
+"Note: Monte Carlo error of the primary difference: perturbing outer-fold probabilities by their Monte Carlo standard errors changed Δ(0.20) with SD 0.041 per 1,000 (200 replicates)."
+

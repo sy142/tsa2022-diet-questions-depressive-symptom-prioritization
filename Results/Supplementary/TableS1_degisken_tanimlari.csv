@@ -1,0 +1,26 @@
+Variable,Source variable(s),Coding,Reference,Used in
+High depressive-symptom burden (PHQ-8 ≥ 10),"ZEVK_DUYMA, BUNALIM, UYKU_SORUN, YORGUNLUK, ISTAHSIZLIK, DEGERSIZ_HISSETME, KONSANTRASYON_PRB, HUZURSUZLUK","Items scored 6 = 0 (not at all), 16 = 1 (several days), 17 = 2 (more than half the days), 18 = 3 (nearly every day); PHQ-8 = sum of eight items (0–24), computed only when all eight items are present; positive if ≥ 10","",Outcome
+PHQ-2 score (symptom-based comparator sharing two items with the PHQ-8; not an upper bound),"ZEVK_DUYMA, BUNALIM",Sum of the two item scores (0–6),"",Comparator ranking
+Eligible population,"YAS, AILE_PRTS_HEK_HIZALMDRM, SON12AY_PSIKOLOG, SON12AY_PSIKOTERAPIST, SON12AY_PSIKIYATRIST","Age ≥ 18; general practitioner or family physician seen < 12 months ago (code 3); none of psychologist, psychotherapist or psychiatrist visited in the past 12 months (none coded 1 = yes)","",Analysis frame
+"Age group, years",YAS,"18–34, 35–49, 50–64, ≥ 65",18–34,"M0, M1, M2"
+Sex,CINSIYET,"1 = men, 2 = women",Men,"M0, M1, M2"
+Education,EGITIM,"Primary or less: 6 (cannot read or write), 1 (no school completed), 2 (primary school); Lower secondary: 31 (general lower secondary), 32 (vocational or technical lower secondary), 33 (8-year primary education); Upper secondary: 4 (general, vocational or technical upper secondary); Tertiary: 511 (2- or 3-year higher education), 512 (4-year higher education or faculty), 52 (master's degree), 53 (doctorate)",Primary or less,"M0, M1, M2"
+Household income group,HANE_GELIR_GRUP,"Monthly net household income, 20 survey bands grouped at the weighted cumulative shares closest to 20%, 40%, 60% and 80%: group 1 = bands 1–10 (0–4,852 TL; weighted 20.6%); group 2 = bands 11–13 (4,853–6,199 TL; weighted 20.1%); group 3 = bands 14–17 (6,200–9,539 TL; weighted 19.2%); group 4 = bands 18–19 (9,540–14,812 TL; weighted 20.4%); group 5 = band 20 (≥14,813 TL; weighted 19.8%)",Group 1 (lowest),"M0, M1, M2"
+Number of reported chronic conditions other than depression and substance-use disorder,"KRONIKHAST_ASTIM, KRONIKHAST_KRONIKBRONSIT, KRONIKHAST_ENFARKTUS, KRONIKHAST_KORONERKALP, KRONIKHAST_HPERTNSIYON, KRONIKHAST_INMEFELC, KRONIKHAST_ARTHROSIS, KRONIKHAST_BELBOLGE, KRONIKHAST_BOYUNBOLGE, KRONIKHAST_SEKERHAST, KRONIKHAST_ALERJI, KRONIKHAST_KARCIGERYETMZ, KRONIKHAST_IDRARKACIRMA, KRONIKHAST_BOBREK, KRONIKHAST_YKSEKKANLIPID, KRONIKHAST_ALZHEIMER, KRONIKHAST_COLYAK, KRONIKHAST_DOWN, KRONIKHAST_OTIZM, KRONIKHAST_DIGER","Count of 'yes' answers across 20 conditions (KRONIKHAST_DEPRESYON and KRONIKHAST_MADDEKUL excluded): 0, 1, 2, ≥ 3",0,"M0, M1, M2"
+Fruit consumption frequency,MEYVE_YEMESIKLIK,7 = Daily or more; 3 = 4–6 times per week; 4 = 1–3 times per week; 5 = Less than once a week; 6 = Never,Daily or more,"M1, M2"
+Vegetable or salad consumption frequency,SEBZE_SALATA_YEMESIKLIK,7 = Daily or more; 3 = 4–6 times per week; 4 = 1–3 times per week; 5 = Less than once a week; 6 = Never,Daily or more,"M1, M2"
+Days per week walking ≥ 10 min for transport,YURUME_10DAK_GUN,"Days per week (0–7), numeric as recorded; fields not summed","",M2
+Days per week cycling ≥ 10 min for transport,BISIKLET_GUN,"Days per week (0–7), numeric as recorded; fields not summed","",M2
+"Days per week of sport, fitness or leisure activity ≥ 10 min",SPOR_GUN,"Days per week (0–7), numeric as recorded; fields not summed","",M2
+Physical demand of daily activities,GUNLUK_FAALIYETDURUM,1 = Mostly sitting or standing; 2 = Mostly walking or moderate effort; 3 = Mostly heavy labor or physically demanding work,Mostly sitting or standing,M2
+People to count on in a serious personal problem,GUVENILIR_YAKIN,1 = None; 2 = 1–2; 3 = 3–5; 4 = ≥ 6,None,M2
+Interest and concern shown by others,CEVRE_ILGI,5 = A lot; 4 = Some; 3 = Uncertain; 2 = Little; 6 = None,A lot,M2
+Ease of getting practical help from neighbors,KOMSU_YARDIM,1 = Very easy; 2 = Easy; 3 = Possible; 4 = Difficult; 5 = Very difficult,Very easy,M2
+Self-reported depression in the past 12 months,KRONIKHAST_DEPRESYON,"1 = yes, 2 = no",No,Sensitivity F only
+"Age (natural spline, 3 df)",YAS,"Natural cubic spline, interior knots at ages 38 and 56 (tertiles), boundary knots 18 and 102","",Sensitivity E only
+Individual survey weight,FERTFAKTOR,Converted to numeric (decimal point in the source file),"",All population-level quantities
+
+"Note: Source variables are those of the Türkiye Health Survey 2022 microdata (TurkStat). Codes are the raw codes of the microdata file."
+"Note: Fruit and vegetable/salad frequencies are self-reported consumption frequencies; quantity and diet quality were not measured."
+"Note: Social support items follow the Oslo-3 Social Support Scale of the European Health Interview Survey; the Turkish response options (Çok fazla, Fazla, Orta, Az, Hiç; Çok kolay, Kolay, Orta, Zor, Çok zor) are shown with their standard English equivalents."
+

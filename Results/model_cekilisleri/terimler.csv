@@ -1,0 +1,40 @@
+terim,girdi_sutunu,degisken,duzey_kodu,duzey,referans_kodu,referans_duzey,olcek,modeller
+Intercept,"",Intercept,"","","","","log-odds when every indicator is 0 (all reference categories) and, in M2, all day counts are 0","M0, M1, M2"
+yas2,yas_g,"Age group, years",2,35–49,1,18–34,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M0, M1, M2"
+yas3,yas_g,"Age group, years",3,50–64,1,18–34,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M0, M1, M2"
+yas4,yas_g,"Age group, years",4,≥ 65,1,18–34,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M0, M1, M2"
+cins2,cins,Sex,2,Women,1,Men,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M0, M1, M2"
+egt2,egitim,Education,2,Lower secondary,1,Primary or less,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M0, M1, M2"
+egt3,egitim,Education,3,Upper secondary,1,Primary or less,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M0, M1, M2"
+egt4,egitim,Education,4,Tertiary,1,Primary or less,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M0, M1, M2"
+gel2,gelir5,Household income group,2,2,1,1 (lowest),"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M0, M1, M2"
+gel3,gelir5,Household income group,3,3,1,1 (lowest),"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M0, M1, M2"
+gel4,gelir5,Household income group,4,4,1,1 (lowest),"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M0, M1, M2"
+gel5,gelir5,Household income group,5,5 (highest),1,1 (lowest),"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M0, M1, M2"
+kro1,kronik,Number of reported chronic conditions other than depression and substance-use disorder,1,1,0,0,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M0, M1, M2"
+kro2,kronik,Number of reported chronic conditions other than depression and substance-use disorder,2,2,0,0,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M0, M1, M2"
+kro3,kronik,Number of reported chronic conditions other than depression and substance-use disorder,3,≥ 3,0,0,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M0, M1, M2"
+mey3,meyve,Fruit consumption frequency,3,4–6 times per week,7,Daily or more,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M1, M2"
+mey4,meyve,Fruit consumption frequency,4,1–3 times per week,7,Daily or more,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M1, M2"
+mey5,meyve,Fruit consumption frequency,5,Less than once a week,7,Daily or more,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M1, M2"
+mey6,meyve,Fruit consumption frequency,6,Never,7,Daily or more,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M1, M2"
+seb3,sebze,Vegetable or salad consumption frequency,3,4–6 times per week,7,Daily or more,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M1, M2"
+seb4,sebze,Vegetable or salad consumption frequency,4,1–3 times per week,7,Daily or more,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M1, M2"
+seb5,sebze,Vegetable or salad consumption frequency,5,Less than once a week,7,Daily or more,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M1, M2"
+seb6,sebze,Vegetable or salad consumption frequency,6,Never,7,Daily or more,"indicator: 1 if the input code equals duzey_kodu, otherwise 0","M1, M2"
+yurume,yurume,Days per week walking ≥ 10 min for transport,"","","","","per day (days per week, integer 0–7)",M2
+bisiklet,bisiklet,Days per week cycling ≥ 10 min for transport,"","","","","per day (days per week, integer 0–7)",M2
+spor,spor,"Days per week of sport, fitness or leisure activity ≥ 10 min","","","","","per day (days per week, integer 0–7)",M2
+fa2,faaliyet,Physical demand of daily activities,2,Mostly walking or moderate effort,1,Mostly sitting or standing,"indicator: 1 if the input code equals duzey_kodu, otherwise 0",M2
+fa3,faaliyet,Physical demand of daily activities,3,Mostly heavy labor or physically demanding work,1,Mostly sitting or standing,"indicator: 1 if the input code equals duzey_kodu, otherwise 0",M2
+yak2,yakin,People to count on in a serious personal problem,2,1–2,1,None,"indicator: 1 if the input code equals duzey_kodu, otherwise 0",M2
+yak3,yakin,People to count on in a serious personal problem,3,3–5,1,None,"indicator: 1 if the input code equals duzey_kodu, otherwise 0",M2
+yak4,yakin,People to count on in a serious personal problem,4,≥ 6,1,None,"indicator: 1 if the input code equals duzey_kodu, otherwise 0",M2
+ilg4,ilgi,Interest and concern shown by others,4,Some,5,A lot,"indicator: 1 if the input code equals duzey_kodu, otherwise 0",M2
+ilg3,ilgi,Interest and concern shown by others,3,Uncertain,5,A lot,"indicator: 1 if the input code equals duzey_kodu, otherwise 0",M2
+ilg2,ilgi,Interest and concern shown by others,2,Little,5,A lot,"indicator: 1 if the input code equals duzey_kodu, otherwise 0",M2
+ilg6,ilgi,Interest and concern shown by others,6,None,5,A lot,"indicator: 1 if the input code equals duzey_kodu, otherwise 0",M2
+kom2,komsu,Ease of getting practical help from neighbors,2,Easy,1,Very easy,"indicator: 1 if the input code equals duzey_kodu, otherwise 0",M2
+kom3,komsu,Ease of getting practical help from neighbors,3,Possible,1,Very easy,"indicator: 1 if the input code equals duzey_kodu, otherwise 0",M2
+kom4,komsu,Ease of getting practical help from neighbors,4,Difficult,1,Very easy,"indicator: 1 if the input code equals duzey_kodu, otherwise 0",M2
+kom5,komsu,Ease of getting practical help from neighbors,5,Very difficult,1,Very easy,"indicator: 1 if the input code equals duzey_kodu, otherwise 0",M2

@@ -1,0 +1,13 @@
+kod,egitim,etiket_kmap,etiket_en
+6,1,Okuma-Yazma bilmeyen,cannot read or write
+1,1,Bir okul bitirmedi,no school completed
+2,1,Ilkokul,primary school
+31,2,Genel ortaokul,general lower secondary
+32,2,Mesleki veya teknik ortaokul,vocational or technical lower secondary
+33,2,Ilkogretim,8-year primary education
+4,3,Genel lise/ Mesleki veya teknik lise,"general, vocational or technical upper secondary"
+511,4,2 veya 3 yillik yuksekokul,2- or 3-year higher education
+512,4,4 yillik yuksekokul veya fakulte,4-year higher education or faculty
+52,4,Yuksek lisans (5 veya 6 yillik,master's degree
+53,4,Doktora,doctorate
+99,,Bilinmeyen,unknown

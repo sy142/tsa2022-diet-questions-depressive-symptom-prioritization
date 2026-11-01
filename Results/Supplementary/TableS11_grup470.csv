@@ -1,0 +1,8 @@
+Group,n,"Weighted population, millions",% of adults ≥ 18,% of PHQ-8–positive adults ≥ 18,% of the group
+Total,470,1.36,2.24,49.1,100.0
+General practitioner or family physician seen < 12 months ago (within the eligible population),332,0.95,1.56,34.4,69.9
+No general practitioner or family physician visit in the past 12 months (outside the eligible population),138,0.41,0.67,14.8,30.1
+
+"Note: n, unweighted; percentages and population weighted by the individual survey weight. The adults without a general practitioner or family physician visit in the past 12 months lie outside the eligible population of the main analysis."
+"Note: The group is defined using the outcome, and the diet condition is part of its definition; capture of this group by M1 is therefore not the primary measure of success. Not reporting specialist contact does not imply being undiagnosed or untreated."
+

@@ -1,0 +1,17 @@
+adim,yer,dakika
+okuma,CPU,0
+doğrulama kapısı,CPU,0
+değişken kurulumu ve Table 1 verisi,CPU,0.01
+önsel öngörü denetimi,CPU,0.02
+pilot,CPU,0.01
+tam veri modelleri,CPU,0.09
+hane bloklu çapraz doğrulama,CPU,0.01
+kapasite: nokta tahminleri ve eşlenik hane bootstrap'ı,CPU,0.01
+kapasite: özetler,CPU,0
+"eşitlik, alt grup, duyarlılık, model temelli Δ, MC hatası",CPU,0.08
+ayrım ve kalibrasyon,CPU,0
+ana tablolar,CPU,0.02
+ek tablolar S1–S8,CPU,0.03
+ek tablolar S9–S11 ve xlsx,CPU,0.02
+"figür verileri, sayilar.json, atıflar",CPU,0.01
+toplam,CPU,0.3

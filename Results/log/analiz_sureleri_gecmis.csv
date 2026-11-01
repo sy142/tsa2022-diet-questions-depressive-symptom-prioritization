@@ -1,0 +1,81 @@
+kosu,adim,yer,dakika
+2026-11-01 01:36:13,okuma,CPU,0.03
+2026-11-01 01:36:13,doğrulama kapısı,CPU,0
+2026-11-01 01:36:13,değişken kurulumu ve Table 1 verisi,CPU,0
+2026-11-01 01:36:13,önsel öngörü denetimi,CPU,0.41
+2026-11-01 01:36:13,pilot,CPU,1.94
+2026-11-01 01:36:13,tam veri modelleri,CPU,0.36
+2026-11-01 01:36:13,hane bloklu çapraz doğrulama,CPU,39.13
+2026-11-01 01:36:13,kapasite: nokta tahminleri ve eşlenik hane bootstrap'ı,CPU,0.24
+2026-11-01 01:36:13,kapasite: özetler,CPU,0
+2026-11-01 01:36:13,"eşitlik, alt grup, duyarlılık, model temelli Δ, MC hatası",CPU,0.14
+2026-11-01 01:36:13,ayrım ve kalibrasyon,CPU,0.09
+2026-11-01 01:36:13,ana tablolar,CPU,0.02
+2026-11-01 01:36:13,ek tablolar S1–S8,CPU,0.02
+2026-11-01 01:36:13,ek tablolar S9–S10 ve xlsx,CPU,0.02
+2026-11-01 01:36:13,"figür verileri, sayilar.json, atıflar",CPU,0
+2026-11-01 01:36:13,toplam,CPU,42.42
+2026-11-01 16:59:07,okuma,CPU,0
+2026-11-01 16:59:07,doğrulama kapısı,CPU,0
+2026-11-01 16:59:07,değişken kurulumu ve Table 1 verisi,CPU,0.01
+2026-11-01 16:59:07,önsel öngörü denetimi,CPU,0.03
+2026-11-01 16:59:07,pilot,CPU,0.01
+2026-11-01 16:59:07,tam veri modelleri,CPU,0.09
+2026-11-01 16:59:07,hane bloklu çapraz doğrulama,CPU,0.01
+2026-11-01 16:59:07,kapasite: nokta tahminleri ve eşlenik hane bootstrap'ı,CPU,0.01
+2026-11-01 16:59:07,kapasite: özetler,CPU,0
+2026-11-01 16:59:07,"eşitlik, alt grup, duyarlılık, model temelli Δ, MC hatası",CPU,0.08
+2026-11-01 16:59:07,ayrım ve kalibrasyon,CPU,0
+2026-11-01 16:59:07,ana tablolar,CPU,0.01
+2026-11-01 16:59:07,ek tablolar S1–S8,CPU,0.03
+2026-11-01 16:59:07,ek tablolar S9–S11 ve xlsx,CPU,0.02
+2026-11-01 16:59:07,"figür verileri, sayilar.json, atıflar",CPU,0.01
+2026-11-01 16:59:07,toplam,CPU,0.3
+2026-11-01 17:35:24,okuma,CPU,0
+2026-11-01 17:35:24,doğrulama kapısı,CPU,0
+2026-11-01 17:35:24,değişken kurulumu ve Table 1 verisi,CPU,0.01
+2026-11-01 17:35:24,önsel öngörü denetimi,CPU,0.03
+2026-11-01 17:35:24,pilot,CPU,0.01
+2026-11-01 17:35:24,tam veri modelleri,CPU,0.08
+2026-11-01 17:35:24,hane bloklu çapraz doğrulama,CPU,0.01
+2026-11-01 17:35:24,kapasite: nokta tahminleri ve eşlenik hane bootstrap'ı,CPU,0.01
+2026-11-01 17:35:24,kapasite: özetler,CPU,0
+2026-11-01 17:35:24,"eşitlik, alt grup, duyarlılık, model temelli Δ, MC hatası",CPU,0.08
+2026-11-01 17:35:24,ayrım ve kalibrasyon,CPU,0
+2026-11-01 17:35:24,ana tablolar,CPU,0.01
+2026-11-01 17:35:24,ek tablolar S1–S8,CPU,0.03
+2026-11-01 17:35:24,ek tablolar S9–S11 ve xlsx,CPU,0.02
+2026-11-01 17:35:24,"figür verileri, sayilar.json, atıflar",CPU,0.01
+2026-11-01 17:35:24,toplam,CPU,0.3
+2026-11-01 17:59:47,okuma,CPU,0
+2026-11-01 17:59:47,doğrulama kapısı,CPU,0
+2026-11-01 17:59:47,değişken kurulumu ve Table 1 verisi,CPU,0
+2026-11-01 17:59:47,önsel öngörü denetimi,CPU,0.03
+2026-11-01 17:59:47,pilot,CPU,0.01
+2026-11-01 17:59:47,tam veri modelleri,CPU,0.09
+2026-11-01 17:59:47,hane bloklu çapraz doğrulama,CPU,0.01
+2026-11-01 17:59:47,kapasite: nokta tahminleri ve eşlenik hane bootstrap'ı,CPU,0.01
+2026-11-01 17:59:47,kapasite: özetler,CPU,0
+2026-11-01 17:59:47,"eşitlik, alt grup, duyarlılık, model temelli Δ, MC hatası",CPU,0.08
+2026-11-01 17:59:47,ayrım ve kalibrasyon,CPU,0
+2026-11-01 17:59:47,ana tablolar,CPU,0.01
+2026-11-01 17:59:47,ek tablolar S1–S8,CPU,0.03
+2026-11-01 17:59:47,ek tablolar S9–S11 ve xlsx,CPU,0.02
+2026-11-01 17:59:47,"figür verileri, sayilar.json, atıflar",CPU,0.01
+2026-11-01 17:59:47,toplam,CPU,0.3
+2026-11-01 19:00:04,okuma,CPU,0
+2026-11-01 19:00:04,doğrulama kapısı,CPU,0
+2026-11-01 19:00:04,değişken kurulumu ve Table 1 verisi,CPU,0.01
+2026-11-01 19:00:04,önsel öngörü denetimi,CPU,0.02
+2026-11-01 19:00:04,pilot,CPU,0.01
+2026-11-01 19:00:04,tam veri modelleri,CPU,0.09
+2026-11-01 19:00:04,hane bloklu çapraz doğrulama,CPU,0.01
+2026-11-01 19:00:04,kapasite: nokta tahminleri ve eşlenik hane bootstrap'ı,CPU,0.01
+2026-11-01 19:00:04,kapasite: özetler,CPU,0
+2026-11-01 19:00:04,"eşitlik, alt grup, duyarlılık, model temelli Δ, MC hatası",CPU,0.08
+2026-11-01 19:00:04,ayrım ve kalibrasyon,CPU,0
+2026-11-01 19:00:04,ana tablolar,CPU,0.02
+2026-11-01 19:00:04,ek tablolar S1–S8,CPU,0.03
+2026-11-01 19:00:04,ek tablolar S9–S11 ve xlsx,CPU,0.02
+2026-11-01 19:00:04,"figür verileri, sayilar.json, atıflar",CPU,0.01
+2026-11-01 19:00:04,toplam,CPU,0.3

@@ -1,0 +1,103 @@
+# Paket atıfları (citation() çıktıları)
+
+Analizde doğrudan rol oynayanlar: R, brms, cmdstanr (CmdStan/Stan), posterior, splines (R çekirdeği), WeightedROC. Ötekiler yardımcıdır; rolleri Table S5'da.
+
+## R 4.6.1 — statistical computing environment
+R Core Team (2026). _R: A Language and Environment for Statistical Computing_. R Foundation for Statistical Computing, Vienna, Austria.
+doi:10.32614/R.manuals <https://doi.org/10.32614/R.manuals>. <https://www.R-project.org/>.
+
+## brms 2.23.0 — Bayesian logistic models (Stan interface)
+Bürkner P (2017). “brms: An R Package for Bayesian Multilevel Models Using Stan.” _Journal of Statistical Software_, *80*(1), 1-28.
+doi:10.18637/jss.v080.i01 <https://doi.org/10.18637/jss.v080.i01>.
+Bürkner P (2018). “Advanced Bayesian Multilevel Modeling with the R Package brms.” _The R Journal_, *10*(1), 395-411. doi:10.32614/RJ-2018-017
+<https://doi.org/10.32614/RJ-2018-017>.
+Bürkner P (2021). “Bayesian Item Response Modeling in R with brms and Stan.” _Journal of Statistical Software_, *100*(5), 1-54.
+doi:10.18637/jss.v100.i05 <https://doi.org/10.18637/jss.v100.i05>.
+
+## cmdstanr 0.9.0 — CmdStan backend for brms
+Gabry J, Češnovar R, Johnson A, Bronder S (2025). _cmdstanr: R Interface to 'CmdStan'_. R package version 0.9.0,
+<https://mc-stan.org/cmdstanr/>.
+
+## posterior 1.7.0 — Posterior draws, R-hat, ESS and Monte Carlo standard errors
+Bürkner P, Gabry J, Kay M, Vehtari A (2026). “posterior: Tools for Working with Posterior Distributions.” R package version 1.7.0,
+<https://mc-stan.org/posterior/>.
+Vehtari A, Gelman A, Simpson D, Carpenter B, Bürkner P (2021). “Rank-normalization, folding, and localization: An improved Rhat for assessing
+convergence of MCMC (with discussion).” _Bayesian Analysis_, *16*(2), 667-718.
+Margossian C, Hoffman M, Sountsov P, Riou-Durand L, Vehtari A, Gelman A (2024). “Nested Rhat: Assessing the convergence of Markov chain Monte
+Carlo when running many short chains.” _Bayesian Analysis_. doi:10.1214/24-BA1453 <https://doi.org/10.1214/24-BA1453>.
+Lambert B, Vehtari A (2022). “Rstar: A robust MCMC convergence diagnostic with uncertainty using decision tree classifiers.” _Bayesian
+Analysis_, *17*(2), 353-379. doi:10.1214/20-BA1252 <https://doi.org/10.1214/20-BA1252>.
+Vehtari A, Simpson D, Gelman A, Yao Y, Gabry J (2024). “Pareto smoothed importance sampling.” _Journal of Machine Learning Research_, *25*(72),
+1-58.
+
+## WeightedROC 2026.8.27 — Weighted ROC curves and AUC
+Hocking TD (2026). _WeightedROC: Fast, Weighted ROC Curves_. doi:10.32614/CRAN.package.WeightedROC
+<https://doi.org/10.32614/CRAN.package.WeightedROC>. R package version 2026.8.27, <https://CRAN.R-project.org/package=WeightedROC>.
+
+## splines 4.6.1 — Natural cubic spline for age (sensitivity analysis E)
+R Core Team (2026). _R: A Language and Environment for Statistical Computing_. R Foundation for Statistical Computing, Vienna, Austria.
+doi:10.32614/R.manuals <https://doi.org/10.32614/R.manuals>. <https://www.R-project.org/>.
+
+## data.table 1.18.6.1 — Data handling (auxiliary)
+Barrett T, Dowle M, Srinivasan A, Gorecki J, Chirico M, Hocking T, Schwendinger B, Krylov I (2026). _data.table: Extension of `data.frame`_.
+doi:10.32614/CRAN.package.data.table <https://doi.org/10.32614/CRAN.package.data.table>. R package version 1.18.6.1,
+<https://CRAN.R-project.org/package=data.table>.
+
+## readr 2.2.0 — Reading the semicolon-delimited microdata file (auxiliary)
+Wickham H, Hester J, Bryan J (2026). _readr: Read Rectangular Text Data_. doi:10.32614/CRAN.package.readr
+<https://doi.org/10.32614/CRAN.package.readr>. R package version 2.2.0, <https://CRAN.R-project.org/package=readr>.
+
+## arrow 26.0.0 — Parquet storage of intermediate data (auxiliary)
+Richardson N, Cook I, Crane N, Dunnington D, François R, Keane J, Mecum B, Moldovan-Grünfeld D, Ooms J, Wujciak-Jens J, Apache Arrow (2026).
+_arrow: Integration to 'Apache' 'Arrow'_. doi:10.32614/CRAN.package.arrow <https://doi.org/10.32614/CRAN.package.arrow>. R package version
+26.0.0, <https://CRAN.R-project.org/package=arrow>.
+
+## jsonlite 2.0.0 — Machine-readable numbers file (auxiliary)
+Ooms J (2014). “The jsonlite Package: A Practical and Consistent Mapping Between JSON Data and R Objects.” _arXiv:1403.2805 [stat.CO]_.
+<https://arxiv.org/abs/1403.2805>.
+
+## future 1.80.0 — Parallel computation (auxiliary)
+Bengtsson H (2021). “A Unifying Framework for Parallel and Distributed Processing in R using Futures.” _The R Journal_, *13*(2), 208-227.
+doi:10.32614/RJ-2021-048 <https://doi.org/10.32614/RJ-2021-048>. <https://doi.org/10.32614/RJ-2021-048>.
+
+## furrr 0.4.0 — Parallel computation (auxiliary)
+Vaughan D, Bengtsson H, Dancho M (2026). _furrr: Apply Mapping Functions in Parallel using Futures_. doi:10.32614/CRAN.package.furrr
+<https://doi.org/10.32614/CRAN.package.furrr>. R package version 0.4.0, <https://CRAN.R-project.org/package=furrr>.
+
+## flextable 0.10.3 — Word tables (auxiliary)
+Gohel D, Skintzos P (2026). _flextable: Functions for Tabular Reporting_. doi:10.32614/CRAN.package.flextable
+<https://doi.org/10.32614/CRAN.package.flextable>. R package version 0.10.3, <https://CRAN.R-project.org/package=flextable>.
+
+## officer 0.7.7 — Word documents (auxiliary)
+Gohel D, Moog S, Heckmann M (2026). _officer: Manipulation of Microsoft Word and PowerPoint Documents_. doi:10.32614/CRAN.package.officer
+<https://doi.org/10.32614/CRAN.package.officer>. R package version 0.7.7, <https://CRAN.R-project.org/package=officer>.
+
+## openxlsx 4.2.9 — Excel tables (auxiliary)
+Schauberger P, Walker A (2026). _openxlsx: Read, Write and Edit xlsx Files_. doi:10.32614/CRAN.package.openxlsx
+<https://doi.org/10.32614/CRAN.package.openxlsx>. R package version 4.2.9, <https://CRAN.R-project.org/package=openxlsx>.
+
+## rlang 1.3.0 — Hashing of cache keys (auxiliary)
+Henry L, Wickham H (2026). _rlang: Functions for Base Types and Core R and 'Tidyverse' Features_. doi:10.32614/CRAN.package.rlang
+<https://doi.org/10.32614/CRAN.package.rlang>. R package version 1.3.0, <https://CRAN.R-project.org/package=rlang>.
+
+## Stan (CmdStan 2.40.0)
+Carpenter, B., Gelman, A., Hoffman, M. D., Lee, D., Goodrich, B., Betancourt, M., Brubaker, M., Guo, J., Li, P., & Riddell, A. (2017). Stan: A probabilistic programming language. Journal of Statistical Software, 76(1), 1–32. https://doi.org/10.18637/jss.v076.i01
+Stan Development Team (2026). Stan Modeling Language Users Guide and Reference Manual, version 2.40.0. https://mc-stan.org
+
+## Prior scaling (Gelman 2008)
+Gelman, A. (2008). Scaling regression inputs by dividing by two standard deviations. Statistics in Medicine, 27(15), 2865–2873. https://doi.org/10.1002/sim.3107
+
+## Python — figure scripts
+Van Rossum, G., & Drake, F. L. (2009). Python 3 Reference Manual. CreateSpace.
+
+## matplotlib — figures
+Hunter, J. D. (2007). Matplotlib: A 2D graphics environment. Computing in Science & Engineering, 9(3), 90–95. https://doi.org/10.1109/MCSE.2007.55
+
+## NumPy — arrays
+Harris, C. R., Millman, K. J., van der Walt, S. J., et al. (2020). Array programming with NumPy. Nature, 585, 357–362. https://doi.org/10.1038/s41586-020-2649-2
+
+## pandas — reading figure data
+McKinney, W. (2010). Data structures for statistical computing in Python. Proceedings of the 9th Python in Science Conference, 56–61. https://doi.org/10.25080/Majora-92bf1922-00a
+The pandas development team. pandas-dev/pandas: Pandas. Zenodo. https://doi.org/10.5281/zenodo.3509134
+
+## openpyxl, Pillow, fonttools — xlsx subscripts, TIFF output and font embedding; auxiliary; no recommended citation

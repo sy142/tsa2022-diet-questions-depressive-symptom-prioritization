@@ -1,0 +1,537 @@
+analiz.R başladı: 2026-11-01 19:00:04 
+Ham veri: 29761 satır, 295 sütun; CSV md5 (okumada): 1b723096cb25628b80b51386cbe8a2cb ; şimdi: 1b723096cb25628b80b51386cbe8a2cb ; okuma süresi (sn): 1.6 
+       n eksik sifir_negatif virgullu noktali en_kucuk      q25   medyan ortalama      q75 en_buyuk   toplam
+   <int> <int>         <int>    <int>   <int>    <num>    <num>    <num>    <num>    <num>    <num>    <num>
+1: 29761     0             0        0   29761 974.7648 2159.908 2580.046 2813.643 3170.839 8442.583 83736824
+                                                         buyukluk                kaynak                         beklenen                          bulunan
+                                                           <char>                <char>                           <char>                           <char>
+ 1:               Ham CSV md5'i parquet'in okunduğu dosyayla aynı               analist 1b723096cb25628b80b51386cbe8a2cb 1b723096cb25628b80b51386cbe8a2cb
+ 2:                                                   Veri satırı       talimat Bölüm 0                            29761                            29761
+ 3:                                                         Sütun       talimat Bölüm 0                              295                              295
+ 4:                                                  18+ yetişkin       talimat Bölüm 0                            21444                            21444
+ 5:                      18+ içinde eksik PHQ-8 maddesi olan kişi       talimat Bölüm 0                                0                                0
+ 6:                                                    Uygun grup       talimat Bölüm 0                            12843                            12843
+ 7:            Uygun grup, üç uzman sorusunun üçü de Hayır tanımı       talimat Bölüm 0                            12843                            12843
+ 8:                                    Uygun gruptaki hane sayısı       talimat Bölüm 0                             7726                             7726
+ 9:                                Uygun grupta PHQ-8 ≥ 10 (kişi)       talimat Bölüm 0                              581                              581
+10:                       Uygun grupta PHQ-8 ≥ 10 ağırlıklı yüzde       talimat Bölüm 0                             4.57                             4.57
+11:            581 içinde meyve ve sebzenin ikisi de günlük değil       talimat Bölüm 0                              332                              332
+12: 18+ PHQ-8 ≥ 10, ikisi de günlük değil, ruh sağlığı teması yok       talimat Bölüm 0                              470                              470
+13:                                   470 içinde hekim teması var       talimat Bölüm 0                              332                              332
+14:                                   470 içinde hekim teması yok       talimat Bölüm 0                              138                              138
+15:                        Uygun grupta PHQ-2 ≥ 3 ağırlıklı yüzde       talimat Bölüm 0                             5.58                             5.58
+16:                        Uygun grupta PHQ-2 = 2 ağırlıklı yüzde       talimat Bölüm 0                            20.25                            20.25
+17:                       Uygun grupta eksik öngörücüsü olan kişi       talimat Bölüm 0                                1                                1
+18:                            Uygun grupta eksik HANE_GELIR_GRUP       talimat Bölüm 0                                1                                1
+19:           Uygun grupta HANE_GELIR_GRUP dışında eksik öngörücü       talimat Bölüm 0                                0                                0
+20:                          FERTFAKTOR sayıya çevrilemeyen değer               analist                                0                                0
+21:                                 FERTFAKTOR sıfır veya negatif               analist                                0                                0
+22:  FERTFAKTOR ondalık virgüllü değer sayısı (talimat: virgüllü) talimat Bölüm 2 ve 12                            29761                                0
+23:                            Kişi kimliği (hane + FERTNO) tekil               analist                                0                                0
+24:                            18+ PHQ maddelerinde kmap dışı kod               analist                                0                                0
+25:                                   KRONIKHAST_ değişken sayısı      talimat Bölüm 12                               22                               22
+26:                                   Kronik sayımına giren madde       talimat Bölüm 4                               20                               20
+                                                         buyukluk                kaynak                         beklenen                          bulunan
+                                                           <char>                <char>                           <char>                           <char>
+      fark tolerans   durum
+    <char>    <num>  <char>
+ 1:           0.000   Tuttu
+ 2:      0    0.000   Tuttu
+ 3:      0    0.000   Tuttu
+ 4:      0    0.000   Tuttu
+ 5:      0    0.000   Tuttu
+ 6:      0    0.000   Tuttu
+ 7:      0    0.000   Tuttu
+ 8:      0    0.000   Tuttu
+ 9:      0    0.000   Tuttu
+10:      0    0.005   Tuttu
+11:      0    0.000   Tuttu
+12:      0    0.000   Tuttu
+13:      0    0.000   Tuttu
+14:      0    0.000   Tuttu
+15:      0    0.005   Tuttu
+16:      0    0.005   Tuttu
+17:      0    0.000   Tuttu
+18:      0    0.000   Tuttu
+19:      0    0.000   Tuttu
+20:      0    0.000   Tuttu
+21:      0    0.000   Tuttu
+22: -29761    0.000 Tutmadı
+23:      0    0.000   Tuttu
+24:      0    0.000   Tuttu
+25:      0    0.000   Tuttu
+26:      0    0.000   Tuttu
+      fark tolerans   durum
+    <char>    <num>  <char>
+Aşama 0 kapısı geçildi: 18 / 18 talimat sayısı tuttu.
+          degisken eksik_n n_uygun eksik_yuzde                                                      not
+            <char>   <int>   <int>       <num>                                                   <char>
+1:          EGITIM       0   12843       0.000 EGITIM = 99 (Bilinmeyen) eksik sayıldı; 99 kodlu kişi: 0
+2: HANE_GELIR_GRUP       1   12843       0.008                                                         
+Key: <bant>
+     bant     n         w         pay    kum_pay gelir5      etiket_kmap
+    <int> <int>     <num>       <num>      <num>  <int>           <char>
+ 1:     1   320  925102.3 0.025796367 0.02579637      1      0 - 1646 TL
+ 2:     2   207  577033.7 0.016090515 0.04188688      1   1647 - 2212 TL
+ 3:     3   118  304598.1 0.008493682 0.05038056      1   2213 - 2570 TL
+ 4:     4    67  187092.9 0.005217062 0.05559762      1   2571 - 2883 TL
+ 5:     5   311  864847.9 0.024116179 0.07971380      1   2884 - 3172 TL
+ 6:     6   106  291521.0 0.008129029 0.08784283      1   3173 - 3472 TL
+ 7:     7   437 1128481.6 0.031467573 0.11931041      1   3473 - 3774 TL
+ 8:     8   494 1346430.1 0.037545041 0.15685545      1   3775 - 4111 TL
+ 9:     9   248  658589.0 0.018364675 0.17522012      1   4112 - 4462 TL
+10:    10   437 1088156.5 0.030343113 0.20556324      1   4463 - 4852 TL
+11:    11   683 1842776.2 0.051385591 0.25694883      2   4853 - 5268 TL
+12:    12  1246 3459205.7 0.096459534 0.35340836      2   5269 - 5713 TL
+13:    13   688 1905104.2 0.053123599 0.40653196      2   5714 - 6199 TL
+14:    14   372 1021521.8 0.028485012 0.43501697      3   6200 - 6794 TL
+15:    15   782 2120549.7 0.059131271 0.49414824      3   6795 - 7510 TL
+16:    16   687 1897795.7 0.052919804 0.54706805      3   7511 - 8372 TL
+17:    17   678 1833508.2 0.051127155 0.59819520      3   8373 - 9539 TL
+18:    18  1488 4260490.6 0.118803266 0.71699847      4  9540 - 11356 TL
+19:    19  1043 3061717.7 0.085375628 0.80237410      4 11357 - 14812 TL
+20:    20  2430 7087206.8 0.197625904 1.00000000      5        14813+ TL
+     bant     n         w         pay    kum_pay gelir5      etiket_kmap
+    <int> <int>     <num>       <num>      <num>  <int>           <char>
+Key: <gelir5>
+   gelir5 bantlar     n agirlikli_yuzde tl_alt tl_ust acik_uclu       tl_aralik
+    <int>  <char> <int>           <num>  <num>  <num>    <lgcl>          <char>
+1:      1    1–10  2745           20.56      0   4852     FALSE      0–4,852 TL
+2:      2   11–13  2617           20.10   4853   6199     FALSE  4,853–6,199 TL
+3:      3   14–17  2519           19.17   6200   9539     FALSE  6,200–9,539 TL
+4:      4   18–19  2531           20.42   9540  14812     FALSE 9,540–14,812 TL
+5:      5      20  2430           19.76  14813  14813      TRUE      ≥14,813 TL
+$ham
+[1] 29761
+
+$yetiskin
+[1] 21444
+
+$hekim_temasi
+[1] 13676
+
+$hekim_temasi_uzman_yok
+[1] 12843
+
+$uzman_temasi_dislanan
+[1] 833
+
+$hekim_temasi_olmayan
+[1] 7768
+
+$uygun
+[1] 12843
+
+$dusen_eksik
+[1] 1
+
+$dusen_gelir
+[1] 1
+
+$dusen_egitim99
+[1] 0
+
+$analiz
+[1] 12842
+
+$analiz_pozitif
+[1] 581
+
+$analiz_hane
+[1] 7725
+
+$dusen_pozitif
+[1] 0
+
+Sıfır olaylı kategori birleştirmesi: yok 
+    degisken  duzey     n  olay
+      <char> <fctr> <int> <int>
+ 1:    yas_g      1  3443   116
+ 2:    yas_g      2  3673   128
+ 3:    yas_g      3  3351   158
+ 4:    yas_g      4  2375   179
+ 5:     cins      1  5608   182
+ 6:     cins      2  7234   399
+ 7:   egitim      1  5871   374
+ 8:   egitim      2  1544    52
+ 9:   egitim      3  2811    90
+10:   egitim      4  2616    65
+11:   gelir5      1  2745   224
+12:   gelir5      2  2617   130
+13:   gelir5      3  2519    88
+14:   gelir5      4  2531    81
+15:   gelir5      5  2430    58
+16:   kronik      0  4796    69
+17:   kronik      1  2687    55
+18:   kronik      2  1812    67
+19:   kronik      3  3547   390
+20:    meyve      7  5161   175
+21:    meyve      3  3112    96
+22:    meyve      4  3536   193
+23:    meyve      5   825    88
+24:    meyve      6   208    29
+25:    sebze      7  5674   223
+26:    sebze      3  3687   144
+27:    sebze      4  3005   156
+28:    sebze      5   379    41
+29:    sebze      6    97    17
+30: faaliyet      1  6608   375
+31: faaliyet      2  5688   184
+32: faaliyet      3   546    22
+33:    yakin      1   494    45
+34:    yakin      2  4267   219
+35:    yakin      3  5070   211
+36:    yakin      4  3011   106
+37:     ilgi      5  1240    72
+38:     ilgi      4  3427   122
+39:     ilgi      3  5751   240
+40:     ilgi      2  1767    97
+41:     ilgi      6   657    50
+42:    komsu      1  2186   106
+43:    komsu      2  6912   241
+44:    komsu      3  2543   106
+45:    komsu      4   893    85
+46:    komsu      5   308    43
+    degisken  duzey     n  olay
+      <char> <fctr> <int> <int>
+    M0     M1     M2 M0_dep M1_dep  M0_ns  M1_ns 
+    14     22     38     15     23     14     22 
+Analiz çerçevesi: n = 12842, hane = 7725, pozitif = 581, p = 0.0457, PHQ-2 ≥ 3 payı = 0.0558
+    degisken                                          etiket n_toplam yuzde_toplam n_pozitif yuzde_pozitif n_negatif yuzde_negatif  ort_toplam ort_pozitif
+      <char>                                          <char>    <int>        <num>     <int>         <num>     <int>         <num>      <char>      <char>
+ 1:    yas_g                                           18–34     3443         29.1       116          20.4      3327          29.5        <NA>        <NA>
+ 2:    yas_g                                           35–49     3673         28.1       128          21.6      3545          28.4        <NA>        <NA>
+ 3:    yas_g                                           50–64     3351         25.2       158          26.5      3193          25.1        <NA>        <NA>
+ 4:    yas_g                                            ≥ 65     2375         17.6       179          31.4      2196          17.0        <NA>        <NA>
+ 5:     cins                                             Men     5608         44.6       182          32.5      5426          45.1        <NA>        <NA>
+ 6:     cins                                           Women     7234         55.4       399          67.5      6835          54.9        <NA>        <NA>
+ 7:   egitim                                 Primary or less     5871         45.5       374          64.7      5497          44.6        <NA>        <NA>
+ 8:   egitim                                 Lower secondary     1544         12.3        52           9.4      1492          12.5        <NA>        <NA>
+ 9:   egitim                                 Upper secondary     2811         22.1        90          14.8      2721          22.5        <NA>        <NA>
+10:   egitim                                        Tertiary     2616         20.1        65          11.1      2551          20.5        <NA>        <NA>
+11:   gelir5                                      1 (lowest)     2745         20.6       224          37.1      2521          19.8        <NA>        <NA>
+12:   gelir5                                               2     2617         20.1       130          21.8      2487          20.0        <NA>        <NA>
+13:   gelir5                                               3     2519         19.2        88          15.4      2431          19.3        <NA>        <NA>
+14:   gelir5                                               4     2531         20.4        81          14.4      2450          20.7        <NA>        <NA>
+15:   gelir5                                     5 (highest)     2430         19.8        58          11.4      2372          20.2        <NA>        <NA>
+16:   kronik                                               0     4796         38.3        69          11.7      4727          39.6        <NA>        <NA>
+17:   kronik                                               1     2687         20.7        55          10.0      2632          21.2        <NA>        <NA>
+18:   kronik                                               2     1812         13.9        67          11.6      1745          14.0        <NA>        <NA>
+19:   kronik                                             ≥ 3     3547         27.1       390          66.7      3157          25.2        <NA>        <NA>
+20:    meyve                                   Daily or more     5161         39.6       175          29.9      4986          40.1        <NA>        <NA>
+21:    meyve                              4–6 times per week     3112         24.4        96          16.8      3016          24.7        <NA>        <NA>
+22:    meyve                              1–3 times per week     3536         27.8       193          33.0      3343          27.5        <NA>        <NA>
+23:    meyve                           Less than once a week      825          6.6        88          15.4       737           6.2        <NA>        <NA>
+24:    meyve                                           Never      208          1.7        29           4.9       179           1.5        <NA>        <NA>
+25:    sebze                                   Daily or more     5674         43.8       223          37.7      5451          44.1        <NA>        <NA>
+26:    sebze                              4–6 times per week     3687         28.7       144          24.3      3543          28.9        <NA>        <NA>
+27:    sebze                              1–3 times per week     3005         23.6       156          27.6      2849          23.4        <NA>        <NA>
+28:    sebze                           Less than once a week      379          3.1        41           7.6       338           2.9        <NA>        <NA>
+29:    sebze                                           Never       97          0.8        17           2.9        80           0.7        <NA>        <NA>
+30:   yurume                        Days per week, mean (SD)    12842           NA       581            NA     12261            NA 4.10 (2.86) 3.20 (3.01)
+31:   yurume                                   None (0 days)     2917         23.0       205          36.4      2712          22.4        <NA>        <NA>
+32: bisiklet                        Days per week, mean (SD)    12842           NA       581            NA     12261            NA 0.13 (0.77) 0.13 (0.85)
+33: bisiklet                                   None (0 days)    12323         95.8       563          96.9     11760          95.8        <NA>        <NA>
+34:     spor                        Days per week, mean (SD)    12842           NA       581            NA     12261            NA 0.22 (0.95) 0.17 (0.91)
+35:     spor                                   None (0 days)    12011         93.4       559          96.4     11452          93.2        <NA>        <NA>
+36: faaliyet                      Mostly sitting or standing     6608         51.4       375          65.1      6233          50.8        <NA>        <NA>
+37: faaliyet               Mostly walking or moderate effort     5688         44.0       184          30.8      5504          44.6        <NA>        <NA>
+38: faaliyet Mostly heavy labor or physically demanding work      546          4.6        22           4.0       524           4.6        <NA>        <NA>
+39:    yakin                                            None      494          3.8        45           7.5       449           3.6        <NA>        <NA>
+40:    yakin                                             1–2     4267         33.2       219          37.3      4048          33.0        <NA>        <NA>
+41:    yakin                                             3–5     5070         39.3       211          36.6      4859          39.5        <NA>        <NA>
+42:    yakin                                             ≥ 6     3011         23.6       106          18.5      2905          23.9        <NA>        <NA>
+43:     ilgi                                           A lot     1240          9.7        72          13.9      1168           9.5        <NA>        <NA>
+44:     ilgi                                            Some     3427         26.4       122          20.7      3305          26.7        <NA>        <NA>
+45:     ilgi                                       Uncertain     5751         44.8       240          40.2      5511          45.0        <NA>        <NA>
+46:     ilgi                                          Little     1767         14.0        97          17.1      1670          13.9        <NA>        <NA>
+47:     ilgi                                            None      657          5.1        50           8.1       607           4.9        <NA>        <NA>
+48:    komsu                                       Very easy     2186         17.0       106          17.9      2080          16.9        <NA>        <NA>
+49:    komsu                                            Easy     6912         53.7       241          41.4      6671          54.2        <NA>        <NA>
+50:    komsu                                        Possible     2543         20.0       106          18.5      2437          20.0        <NA>        <NA>
+51:    komsu                                       Difficult      893          6.9        85          14.8       808           6.6        <NA>        <NA>
+52:    komsu                                  Very difficult      308          2.5        43           7.3       265           2.3        <NA>        <NA>
+    degisken                                          etiket n_toplam yuzde_toplam n_pozitif yuzde_pozitif n_negatif yuzde_negatif  ort_toplam ort_pozitif
+      <char>                                          <char>    <int>        <num>     <int>         <num>     <int>         <num>      <char>      <char>
+Hizmet kapsamı: 18+ PHQ-8 ≥ 10 ve uzman teması yok n = 806; son 12 ayda hekim teması ağırlıklı %71.3
+                                                                                      grup     n agirlikli_kisi yuzde_18_ustu yuzde_18_ustu_pozitif
+                                                                                    <char> <int>          <num>         <num>                 <num>
+1:                                                                                   Total   470      1360884.0     2.2366427              49.14540
+2:            GP or family physician seen < 12 months ago (within the eligible population)   332       951286.5     1.5634603              34.35367
+3: No GP or family physician visit in the past 12 months (outside the eligible population)   138       409597.5     0.6731824              14.79173
+   yuzde_grup_ici
+            <num>
+1:       100.0000
+2:        69.9021
+3:        30.0979
+                                                                                                                                                                tanim
+                                                                                                                                                               <char>
+1: Adults aged ≥ 18 with PHQ-8 ≥ 10, fruit and vegetable/salad both less than daily, and no psychologist, psychotherapist or psychiatrist visit in the past 12 months
+2: Adults aged ≥ 18 with PHQ-8 ≥ 10, fruit and vegetable/salad both less than daily, and no psychologist, psychotherapist or psychiatrist visit in the past 12 months
+3: Adults aged ≥ 18 with PHQ-8 ≥ 10, fruit and vegetable/salad both less than daily, and no psychologist, psychotherapist or psychiatrist visit in the past 12 months
+    model                                       varyant cekilis pay_q05 pay_q50 pay_q95 pay_1_99_disi xb_sd_q50 xb_sd_q90 uc_pay_q50 oran_q90_q10_q50 sd_yas
+   <char>                                        <char>   <int>   <num>   <num>   <num>         <num>     <num>     <num>      <num>            <num>  <num>
+1:     M0                          talimat: b ~ N(0, 1)    2000 0.00900   0.494   0.986        0.0945      1.47      1.91    0.00000             7.15  0.619
+2:     M1                          talimat: b ~ N(0, 1)    2000 0.00957   0.479   0.989        0.0990      1.75      2.19    0.00124            10.57  0.641
+3:     M2                          talimat: b ~ N(0, 1)    2000 0.05084   0.502   0.947        0.0440      3.32      5.47    0.10293            89.69  0.631
+4:     M2                  gün katsayıları N(0, 1/SD_x)    2000 0.03367   0.501   0.964        0.0525      2.77      3.45    0.04100            30.03  0.631
+5:     M2 gün katsayıları N(0, 1/(2 SD_x)), Gelman 2008    2000 0.02301   0.501   0.974        0.0675      2.40      2.88    0.02201            21.68  0.631
+   sd_cins sd_egt sd_gel sd_kro sd_mey sd_seb sd_gun sd_fa sd_yak sd_ilg sd_kom kategorik_blok_sd_max gun_sd_yurume gun_sd_bisiklet gun_sd_spor
+     <num>  <num>  <num>  <num>  <num>  <num>  <num> <num>  <num>  <num>  <num>                 <num>         <num>           <num>       <num>
+1:   0.352  0.578  0.718  0.596     NA     NA     NA    NA     NA     NA     NA                 0.717          2.86           0.772       0.949
+2:   0.324  0.580  0.734  0.616  0.577  0.544     NA    NA     NA     NA     NA                 0.717          2.86           0.772       0.949
+3:   0.337  0.580  0.717  0.598  0.577  0.540  2.362 0.394   0.67  0.667  0.596                 0.717          2.86           0.772       0.949
+4:   0.337  0.580  0.717  0.598  0.577  0.540  1.522 0.394   0.67  0.667  0.596                 0.717          2.86           0.772       0.949
+5:   0.337  0.580  0.717  0.598  0.577  0.540  0.761 0.394   0.67  0.667  0.596                 0.717          2.86           0.772       0.949
+Önsel kural uygulandı mı: TRUE ; seçilen: gün katsayıları N(0, 1/(2 SD_x)), Gelman 2008 ; gün bloğu SD (talimat): 2.36 ; en büyük kategorik blok SD: 0.72 
+  yurume bisiklet     spor 
+  0.1748   0.6476   0.5267 
+CV iş planı: 230 uyum
+Key: <varyant, model, tekrar>
+      varyant  model tekrar     N
+       <char> <char>  <int> <int>
+ 1: agirlikli     M0      1    10
+ 2: agirlikli     M1      1    10
+ 3:       ana     M0      1    10
+ 4:       ana     M0      2    10
+ 5:       ana     M0      3    10
+ 6:       ana     M0      4    10
+ 7:       ana     M0      5    10
+ 8:       ana     M1      1    10
+ 9:       ana     M1      2    10
+10:       ana     M1      3    10
+11:       ana     M1      4    10
+12:       ana     M1      5    10
+13:       ana     M2      1    10
+14:       ana     M2      2    10
+15:       ana     M2      3    10
+16:       ana     M2      4    10
+17:       ana     M2      5    10
+18: depresyon     M0      1    10
+19: depresyon     M1      1    10
+20:   oncel25     M0      1    10
+21:   oncel25     M1      1    10
+22:    spline     M0      1    10
+23:    spline     M1      1    10
+      varyant  model tekrar     N
+       <char> <char>  <int> <int>
+                                                                                            deneme dakika
+                                                                                            <char>  <num>
+1:              CPU 4 zincir × 4 iş parçacığı (reduce_sum), M2, tam veri, 300 + 300; derleme dahil  0.168
+2:                  CPU 4 zincir × 4 iş parçacığı (reduce_sum), M2, tam veri, 300 + 300; derlenmiş  0.046
+3:                     CPU 4 zincir × 1 iş parçacığı (glm), M2, tam veri, 300 + 300; derleme dahil  0.164
+4:                         CPU 4 zincir × 1 iş parçacığı (glm), M2, tam veri, 300 + 300; derlenmiş  0.060
+5:                                      GPU OpenCL (brms opencl(c(0, 0))), M2, tam veri, 300 + 300  0.008
+6:                           CPU 4 zincir × 1 iş parçacığı, M0, tam veri, 300 + 300; derleme dahil  0.111
+7:                     Tek kat: M2 tekrar 1 kat 1, 4 zincir × 1 iş parçacığı, 1000 + 6000 (sıralı)  0.432
+8: Kat paralelliği: M2 tekrar 1 kat 2–5, 4 eşzamanlı uyum × 4 zincir × 1 iş parçacığı, 1000 + 6000  0.934
+                                                    durum
+                                                   <char>
+1:                                                çalıştı
+2:                                                çalıştı
+3:                                                çalıştı
+4:                                                çalıştı
+5: hata: Fitting failed. Unable to retrieve the metadata.
+6:                                                çalıştı
+7:                                                çalıştı
+8:                                                çalıştı
+    model  varyant n_egitim parametre rhat_max ess_bulk_min ess_tail_min diverjans agac_siniri ebfmi_min warmup ornek adapt_delta     dakika
+   <char>   <char>    <int>     <int>    <num>        <num>        <num>     <num>       <int>     <num>  <int> <int>       <num>      <num>
+1:     M0 tam veri    12842        15 1.002017     3889.504     4068.719         0           0 0.9690110   1000  1500         0.9 0.07886900
+2:     M1 tam veri    12842        23 1.001155     4265.997     4275.261         0           0 0.9819052   1000  1500         0.9 0.09846056
+3:     M2 tam veri    12842        39 1.003020     3510.270     3997.134         0           0 0.9448942   1000  1500         0.9 0.16942080
+    model  kisi cekilis    olcut en_buyuk_fark_p en_buyuk_fark_eta tum_cekilislerle_en_buyuk_fark_p tum_cekilislerle_ort_mutlak_fark_p
+   <char> <int>   <int>    <num>           <num>             <num>                            <num>                              <num>
+1:     M0 12842    1000 0.000001    5.551115e-17      1.776357e-15                      0.001647179                       0.0001322796
+2:     M1 12842    1000 0.000001    1.110223e-16      2.664535e-15                      0.002849749                       0.0001357686
+3:     M2 12842    1000 0.000001    1.665335e-16      2.664535e-15                      0.006508032                       0.0002231532
+   ortalama_etada_olasilik_en_buyuk_fark    sonuc
+                                   <num>   <char>
+1:                           0.002012354 sağlandı
+2:                           0.006725505 sağlandı
+3:                           0.016726094 sağlandı
+CV: planlanan 230 uyum, eksik 0 
+CV tanıları: R-hat en büyük 1.0014 ; bulk ESS en küçük 12673 ; tail ESS en küçük 14321 ; divergence toplam 0 ; E-BFMI en küçük 0.952 ; ikinci deneme gereken 0 ; ölçütü sağlamayan 0 
+                                                                                      test  sonuc
+                                                                                    <char> <char>
+ 1:                                          Elle örnek, c = 0,20: f = (1, 1/3, 1/3, 0, 0)  geçti
+ 2:                                Elle örnek, c = 0,20: seçilen ağırlık = 2 ve eşik = 0,8  geçti
+ 3:                     Elle örnek, c = 0,40 (sınır tam grup sonunda): f = (1, 1, 1, 0, 0)  geçti
+ 4:                                            Elle örnek, c = 0,45: f = (1, 1, 1, 1/6, 0)  geçti
+ 5:                                                 c = 0 hiç kimseyi, c = 1 herkesi seçer  geçti
+ 6: Matris ağırlık (bootstrap sütunları), sıfır ağırlıklı kişi: seçilen ağırlık c × toplam  geçti
+ 7:                                          Sıra değişmezliği (3.000 kişi, yoğun eşitlik)  geçti
+ 8:                                Rastgele veride her c için seçilen ağırlık = c × toplam  geçti
+ 9:        Eşik = ağırlıklı (1 − c) kantili: eşik üstü ağırlık < cW ≤ eşik ve üstü ağırlık  geçti
+10:                        Tabakalı seçim: her tabakada seçilen ağırlık c × tabaka toplamı  geçti
+11:                                         Vektör ve tek sütunlu matris aynı sonucu verir  geçti
+    strateji     c     D  Sens    PPV
+      <char> <num> <num> <num>  <num>
+ 1:       M0   0.1 15.31 0.335 0.1531
+ 2:       M0   0.2 25.59 0.560 0.1279
+ 3:       M0   0.3 32.01 0.701 0.1067
+ 4:       M1   0.1 15.75 0.345 0.1575
+ 5:       M1   0.2 26.20 0.573 0.1310
+ 6:       M1   0.3 33.55 0.734 0.1118
+ 7:       M2   0.1 17.92 0.392 0.1792
+ 8:       M2   0.2 27.70 0.606 0.1385
+ 9:       M2   0.3 33.79 0.739 0.1126
+10:     PHQ2   0.1 37.74 0.826 0.3774
+11:     PHQ2   0.2 41.54 0.909 0.2077
+12:     PHQ2   0.3 44.08 0.965 0.1469
+    karsilastirma     c   olcu      tahmin          alt        ust    b_medyan b_sayi
+           <char> <num> <fctr>       <num>        <num>      <num>       <num>  <int>
+ 1:       M1 − M0   0.1   fark   0.4457146  -1.22481656   2.039477   0.4561272   2000
+ 2:       M1 − M0   0.2   fark   0.6078909  -0.88664095   2.232361   0.6389689   2000
+ 3:       M1 − M0   0.3   fark   1.5324899  -0.20558287   2.209698   0.9902420   2000
+ 4:       M2 − M1   0.1   fark   2.1646443   0.66627907   3.728415   2.1327853   2000
+ 5:       M2 − M1   0.2   fark   1.5040402  -0.43507105   2.797518   1.1906465   2000
+ 6:       M2 − M1   0.3   fark   0.2406044  -0.62737743   1.944968   0.6188861   2000
+ 7:       M2 − M0   0.1   fark   2.6103589   0.66990642   4.440092   2.6064726   2000
+ 8:       M2 − M0   0.2   fark   2.1119311   0.02197413   3.712233   1.8688998   2000
+ 9:       M2 − M0   0.3   fark   1.7730943   0.13450623   3.156766   1.6298558   2000
+10:     PHQ2 − M0   0.1   fark  22.4263058  19.21589563  25.597435  22.4047026   2000
+11:     PHQ2 − M0   0.2   fark  15.9539479  13.27110810  18.658648  15.9137373   2000
+12:     PHQ2 − M0   0.3   fark  12.0663703   9.71959674  14.156769  11.9322980   2000
+13: rastgele − M0   0.1   fark -10.7393630 -12.69570252  -8.859712 -10.7759977   2000
+14: rastgele − M0   0.2   fark -16.4491102 -18.90838849 -14.228966 -16.4830226   2000
+15: rastgele − M0   0.3   fark -18.3035929 -20.79095902 -16.029962 -18.4497584   2000
+16:    ideal − M0   0.1   fark  30.3897963  26.81817231  33.858256  30.3249622   2000
+17:    ideal − M0   0.2   fark  20.1101425  17.27351187  22.989215  20.0300667   2000
+18:    ideal − M0   0.3   fark  13.6857532  11.35091390  15.878708  13.5117668   2000
+19: M1 − rastgele   0.1   fark  11.1850776   9.21347414  13.140457  11.1804192   2000
+20: M1 − rastgele   0.2   fark  17.0570010  14.84597044  19.622372  17.1511007   2000
+21: M1 − rastgele   0.3   fark  19.8360827  17.04205309  21.872947  19.4464726   2000
+22: M0 − rastgele   0.1   fark  10.7393630   8.85971215  12.695703  10.7759977   2000
+23: M0 − rastgele   0.2   fark  16.4491102  14.22896600  18.908388  16.4830226   2000
+24: M0 − rastgele   0.3   fark  18.3035929  16.02996245  20.790959  18.4497584   2000
+    karsilastirma     c   olcu      tahmin          alt        ust    b_medyan b_sayi
+           <char> <num> <fctr>       <num>        <num>      <num>       <num>  <int>
+     olcu      tahmin         alt         ust    b_medyan
+   <fctr>       <num>       <num>       <num>       <num>
+1:      c  0.05580702  0.05129293  0.06047094  0.05580595
+2:      D 36.09084092 32.40747620 39.90117212 36.10244849
+3:   Sens  0.78975008  0.75265110  0.82342776  0.79074762
+4:    PPV  0.64670792  0.60801752  0.68337471  0.64651451
+Key: <tekrar>
+   tekrar izgara_en_buyuk_fark izgara_en_buyuk_fark_c surekli_en_buyuk_fark surekli_en_buyuk_fark_c  kat_p_min  kat_p_max
+    <int>                <num>                  <num>                 <num>                   <num>      <num>      <num>
+1:      1         1.667444e+00                   0.04              3.648416              0.04569907 0.02367871 0.05890823
+2:      2         1.483981e+00                   0.04              3.233952              0.04569907 0.03087241 0.05633066
+3:      3         5.326360e-01                   0.04              2.297189              0.04569907 0.03569762 0.05438730
+4:      4         3.552714e-14                   0.06              1.454858              0.04569907 0.04064304 0.05227055
+5:      5         3.074223e-01                   0.06              2.491126              0.04569907 0.03719647 0.06308223
+   karsilastirma     c nokta       ort    en_kucuk  en_buyuk
+          <char> <num> <int>     <num>       <num>     <num>
+1:       M1 − M0   0.1     9 0.4640073  0.18163854 0.6145981
+2:       M2 − M1   0.1     9 2.1502824  1.25880518 2.8138462
+3:       M1 − M0   0.2     9 0.6298415  0.46149830 0.8784894
+4:       M2 − M1   0.2     9 1.1526619  0.75993576 1.5040402
+5:       M1 − M0   0.3     9 0.8995624 -0.28191040 1.7446816
+6:       M2 − M1   0.3     9 0.6987248  0.05920408 1.6470398
+    strateji     c          olcu     tahmin        alt        ust   b_medyan b_sayi
+      <char> <num>        <fctr>      <num>      <num>      <num>      <num>  <int>
+ 1:       M0   0.2    D_kisitsiz 25.5889233 22.8656344 28.6091184 25.6427781   2000
+ 2:       M1   0.2    D_kisitsiz 26.1968142 23.3354958 29.3633354 26.2903751   2000
+ 3:       M2   0.2    D_kisitsiz 27.7008545 24.5034593 30.5365746 27.4877295   2000
+ 4:       M0   0.2        D_esit 21.7259013 19.0442549 24.4351432 21.7442847   2000
+ 5:       M1   0.2        D_esit 23.0097906 20.1229532 25.6101603 22.9285537   2000
+ 6:       M2   0.2        D_esit 24.8838177 21.8420418 27.5147745 24.6521687   2000
+ 7:       M0   0.2        fark_D -3.8630220 -5.9517478 -1.8555410 -3.8957302   2000
+ 8:       M1   0.2        fark_D -3.1870236 -5.5518618 -1.3954722 -3.4415298   2000
+ 9:       M2   0.2        fark_D -2.8170368 -4.7970980 -0.9741410 -2.7932127   2000
+10:       M0   0.2 Sens_kisitsiz  0.5599441  0.5199161  0.6046756  0.5620510   2000
+11:       M1   0.2 Sens_kisitsiz  0.5732462  0.5325087  0.6186810  0.5755402   2000
+12:       M2   0.2 Sens_kisitsiz  0.6061580  0.5589983  0.6461523  0.6022213   2000
+13:       M0   0.2     Sens_esit  0.4754124  0.4358098  0.5175740  0.4757839   2000
+14:       M1   0.2     Sens_esit  0.5035068  0.4585161  0.5407046  0.5004977   2000
+15:       M2   0.2     Sens_esit  0.5445148  0.4957358  0.5833381  0.5398858   2000
+                                                          analiz      kod karsilastirma     c                     olcu    tahmin         alt      ust  b_medyan
+                                                          <char>   <char>        <char> <num>                   <fctr>     <num>       <num>    <num>     <num>
+ 1:                                  Primary (fold assignment 1)  primary       M1 − M0   0.2                     fark 0.6078909 -0.88664095 2.232361 0.6389689
+ 2:                                  Primary (fold assignment 1)  primary       M2 − M1   0.2                     fark 1.5040402 -0.43507105 2.797518 1.1906465
+ 3:                                         A. Fold assignment 2     A_r2       M1 − M0   0.2                     fark 0.9443737 -0.73297901 2.354321 0.8328125
+ 4:                                         A. Fold assignment 2     A_r2       M2 − M1   0.2                     fark 0.2430158 -1.14454740 1.839554 0.4074509
+ 5:                                         A. Fold assignment 3     A_r3       M1 − M0   0.2                     fark 1.2820913 -0.51164353 2.575596 1.0372304
+ 6:                                         A. Fold assignment 3     A_r3       M2 − M1   0.2                     fark 1.1341565 -0.40942732 2.689566 1.1026146
+ 7:                                         A. Fold assignment 4     A_r4       M1 − M0   0.2                     fark 1.0930155 -0.59207080 2.666155 1.0637998
+ 8:                                         A. Fold assignment 4     A_r4       M2 − M1   0.2                     fark 1.1349892 -0.29356018 2.726850 1.1531711
+ 9:                                         A. Fold assignment 5     A_r5       M1 − M0   0.2                     fark 1.0192277 -0.14913127 2.797896 1.3547583
+10:                                         A. Fold assignment 5     A_r5       M2 − M1   0.2                     fark 0.5276815 -0.55821054 2.317243 0.8416442
+11:                               B. Pooled ranking across folds        B       M1 − M0   0.2                     fark 1.3396313 -0.42911744 2.861465 1.2492931
+12:                               B. Pooled ranking across folds        B       M2 − M1   0.2                     fark 1.4465138  0.04174257 2.887457 1.4660733
+13:                      C. Weighted training (pseudo-posterior)        C       M1 − M0   0.2                     fark 0.6256240 -1.02017102 2.181569 0.5956530
+14:                     D. Normal coefficient priors with SD 2.5        D       M1 − M0   0.2                     fark 0.2968806 -1.05765329 2.023399 0.4677060
+15:                              E. Age as natural spline (3 df)        E       M1 − M0   0.2                     fark 0.4888995 -0.55859404 2.275645 0.8380815
+16:                            F. Self-reported depression added        F       M1 − M0   0.2                     fark 0.2087771 -1.12655399 1.833859 0.3471390
+17: A. Five fold assignments (mean and range of point estimates) A_aralik       M1 − M0   0.2 fark_5tekrar_ort_min_max 0.9893198  0.60789088 1.282091        NA
+18: A. Five fold assignments (mean and range of point estimates) A_aralik       M2 − M1   0.2 fark_5tekrar_ort_min_max 0.9087766  0.24301580 1.504040        NA
+    b_sayi izgara_noktasi                            aralik_turu
+     <int>          <int>                                 <char>
+ 1:   2000             NA          95% bootstrap CI (percentile)
+ 2:   2000             NA          95% bootstrap CI (percentile)
+ 3:   2000             NA          95% bootstrap CI (percentile)
+ 4:   2000             NA          95% bootstrap CI (percentile)
+ 5:   2000             NA          95% bootstrap CI (percentile)
+ 6:   2000             NA          95% bootstrap CI (percentile)
+ 7:   2000             NA          95% bootstrap CI (percentile)
+ 8:   2000             NA          95% bootstrap CI (percentile)
+ 9:   2000             NA          95% bootstrap CI (percentile)
+10:   2000             NA          95% bootstrap CI (percentile)
+11:   2000             NA          95% bootstrap CI (percentile)
+12:   2000             NA          95% bootstrap CI (percentile)
+13:   2000             NA          95% bootstrap CI (percentile)
+14:   2000             NA          95% bootstrap CI (percentile)
+15:   2000             NA          95% bootstrap CI (percentile)
+16:   2000             NA          95% bootstrap CI (percentile)
+17:      5             NA mean (min–max) over five split repeats
+18:      5             NA mean (min–max) over five split repeats
+                buyukluk    medyan        alt      ust cekilis
+                  <char>     <num>      <num>    <num>   <int>
+1:            D_M0(0.20) 25.309082 24.4868122 26.15110    1000
+2:            D_M1(0.20) 25.978479 25.0897563 26.82016    1000
+3: Delta(0.20) = M1 − M0  0.641153 -0.5113677  1.92669    1000
+                                                                                                                                                            etiket
+                                                                                                                                                            <char>
+1: Model-based distribution over 1,000 thinned outer-fold posterior draws (repeat 1), conditional on the fixed data and fold assignments; not a bootstrap interval
+2: Model-based distribution over 1,000 thinned outer-fold posterior draws (repeat 1), conditional on the fixed data and fold assignments; not a bootstrap interval
+3: Model-based distribution over 1,000 thinned outer-fold posterior draws (repeat 1), conditional on the fixed data and fold assignments; not a bootstrap interval
+   karsilastirma     nokta      mc_sd mc_en_buyuk_sapma p_hat_mcse_medyan p_hat_mcse_max tekrar
+          <char>     <num>      <num>             <num>             <num>          <num>  <int>
+1:       M1 − M0 0.6078909 0.04055286        0.11419488      0.0000302156   0.0007715576    200
+2:       M2 − M1 1.5040402 0.03799963        0.08199511      0.0000302156   0.0007715576    200
+      model    olcu     tahmin          alt        ust   b_medyan                                                           aralik_turu
+     <char>  <fctr>      <num>        <num>      <num>      <num>                                                                <char>
+ 1:      M0     AUC 0.75587556  0.733395013 0.77759866 0.75595739 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+ 2:      M1     AUC 0.77605327  0.755787180 0.79587594 0.77605824 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+ 3: M1 − M0     AUC 0.02017771  0.011268892 0.02938594 0.02007046 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+ 4:      M2     AUC 0.78958308  0.769195786 0.80957229 0.78950522 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+ 5: M2 − M1     AUC 0.01352981  0.005840443 0.02166530 0.01345414 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+ 6:    PHQ2     AUC 0.95742979  0.948386349 0.96498615 0.95774653 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+ 7:      M0    egim 0.97705593  0.878097231 1.07733084 0.97745023 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+ 8:      M0 kesisim 0.02406718 -0.079558481 0.12479097 0.02364664 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+ 9:      M0      oe 1.02211938  0.930063393 1.11952699 1.02171192 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+10:      M1    egim 0.97018175  0.884940302 1.06065715 0.96961410 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+11:      M1 kesisim 0.02185649 -0.084391498 0.12195269 0.02137938 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+12:      M1      oe 1.01973499  0.927071504 1.11454908 1.01929889 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+13:      M2    egim 0.95820312  0.876728361 1.04678440 0.95819534 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+14:      M2 kesisim 0.01994135 -0.088252090 0.12194316 0.01932212 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+15:      M2      oe 1.01761966  0.925410046 1.11200227 1.01712071 95% bootstrap CI (percentile, household cluster bootstrap, B = 2,000)
+                                tahmin_kaynagi
+                                        <char>
+ 1: outer-fold predictions, repeat 1, weighted
+ 2: outer-fold predictions, repeat 1, weighted
+ 3: outer-fold predictions, repeat 1, weighted
+ 4: outer-fold predictions, repeat 1, weighted
+ 5: outer-fold predictions, repeat 1, weighted
+ 6: outer-fold predictions, repeat 1, weighted
+ 7: outer-fold predictions, repeat 1, weighted
+ 8: outer-fold predictions, repeat 1, weighted
+ 9: outer-fold predictions, repeat 1, weighted
+10: outer-fold predictions, repeat 1, weighted
+11: outer-fold predictions, repeat 1, weighted
+12: outer-fold predictions, repeat 1, weighted
+13: outer-fold predictions, repeat 1, weighted
+14: outer-fold predictions, repeat 1, weighted
+15: outer-fold predictions, repeat 1, weighted
+analiz.R bitti: 2026-11-01 19:00:22 ; toplam 0.3 dk

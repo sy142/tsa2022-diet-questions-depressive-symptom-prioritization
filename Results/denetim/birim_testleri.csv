@@ -1,0 +1,12 @@
+test,sonuc
+"Elle örnek, c = 0,20: f = (1, 1/3, 1/3, 0, 0)",geçti
+"Elle örnek, c = 0,20: seçilen ağırlık = 2 ve eşik = 0,8",geçti
+"Elle örnek, c = 0,40 (sınır tam grup sonunda): f = (1, 1, 1, 0, 0)",geçti
+"Elle örnek, c = 0,45: f = (1, 1, 1, 1/6, 0)",geçti
+"c = 0 hiç kimseyi, c = 1 herkesi seçer",geçti
+"Matris ağırlık (bootstrap sütunları), sıfır ağırlıklı kişi: seçilen ağırlık c × toplam",geçti
+"Sıra değişmezliği (3.000 kişi, yoğun eşitlik)",geçti
+Rastgele veride her c için seçilen ağırlık = c × toplam,geçti
+Eşik = ağırlıklı (1 − c) kantili: eşik üstü ağırlık < cW ≤ eşik ve üstü ağırlık,geçti
+Tabakalı seçim: her tabakada seçilen ağırlık c × tabaka toplamı,geçti
+Vektör ve tek sütunlu matris aynı sonucu verir,geçti

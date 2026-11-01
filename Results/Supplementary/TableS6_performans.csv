@@ -1,0 +1,11 @@
+Strategy,AUC (95% CI),Calibration slope (95% CI),Calibration intercept (95% CI),Observed/expected (95% CI)
+M0: routine characteristics,"0.756 (0.733, 0.778)","0.977 (0.878, 1.077)","0.024 (−0.080, 0.125)","1.022 (0.930, 1.120)"
+M1: M0 + two diet questions,"0.776 (0.756, 0.796)","0.970 (0.885, 1.061)","0.022 (−0.084, 0.122)","1.020 (0.927, 1.115)"
+M2: M1 + activity and social support,"0.790 (0.769, 0.810)","0.958 (0.877, 1.047)","0.020 (−0.088, 0.122)","1.018 (0.925, 1.112)"
+PHQ-2 ranking,"0.957 (0.948, 0.965)","","",""
+"Difference, M1 − M0","0.020 (0.011, 0.029)","","",""
+"Difference, M2 − M1","0.014 (0.006, 0.022)","","",""
+
+"Note: All measures are weighted by the individual survey weight. AUC: weighted area under the ROC curve (ties counted as one half). Calibration slope: coefficient of the logit of the predicted probability in a weighted logistic regression; calibration intercept: intercept with the logit as an offset; observed/expected: weighted observed over weighted mean predicted positives."
+"Note: The PHQ-2 score is a symptom-based comparator sharing two items with the PHQ-8; it is not an upper bound, and calibration is not defined for it. 95% CI: household cluster bootstrap (2,000 replicates), conditional on the fixed model fits."
+

@@ -1,0 +1,36 @@
+buyukluk,kaynak,beklenen,bulunan,fark,tolerans,durum
+Ham CSV md5'i parquet'in okunduğu dosyayla aynı,analist,1b723096cb25628b80b51386cbe8a2cb,1b723096cb25628b80b51386cbe8a2cb,"",0,Tuttu
+Veri satırı,talimat Bölüm 0,29761,29761,0,0,Tuttu
+Sütun,talimat Bölüm 0,295,295,0,0,Tuttu
+18+ yetişkin,talimat Bölüm 0,21444,21444,0,0,Tuttu
+18+ içinde eksik PHQ-8 maddesi olan kişi,talimat Bölüm 0,0,0,0,0,Tuttu
+Uygun grup,talimat Bölüm 0,12843,12843,0,0,Tuttu
+"Uygun grup, üç uzman sorusunun üçü de Hayır tanımı",talimat Bölüm 0,12843,12843,0,0,Tuttu
+Uygun gruptaki hane sayısı,talimat Bölüm 0,7726,7726,0,0,Tuttu
+Uygun grupta PHQ-8 ≥ 10 (kişi),talimat Bölüm 0,581,581,0,0,Tuttu
+Uygun grupta PHQ-8 ≥ 10 ağırlıklı yüzde,talimat Bölüm 0,4.57,4.57,0,0.005,Tuttu
+581 içinde meyve ve sebzenin ikisi de günlük değil,talimat Bölüm 0,332,332,0,0,Tuttu
+"18+ PHQ-8 ≥ 10, ikisi de günlük değil, ruh sağlığı teması yok",talimat Bölüm 0,470,470,0,0,Tuttu
+470 içinde hekim teması var,talimat Bölüm 0,332,332,0,0,Tuttu
+470 içinde hekim teması yok,talimat Bölüm 0,138,138,0,0,Tuttu
+Uygun grupta PHQ-2 ≥ 3 ağırlıklı yüzde,talimat Bölüm 0,5.58,5.58,0,0.005,Tuttu
+Uygun grupta PHQ-2 = 2 ağırlıklı yüzde,talimat Bölüm 0,20.25,20.25,0,0.005,Tuttu
+Uygun grupta eksik öngörücüsü olan kişi,talimat Bölüm 0,1,1,0,0,Tuttu
+Uygun grupta eksik HANE_GELIR_GRUP,talimat Bölüm 0,1,1,0,0,Tuttu
+Uygun grupta HANE_GELIR_GRUP dışında eksik öngörücü,talimat Bölüm 0,0,0,0,0,Tuttu
+FERTFAKTOR sayıya çevrilemeyen değer,analist,0,0,0,0,Tuttu
+FERTFAKTOR sıfır veya negatif,analist,0,0,0,0,Tuttu
+FERTFAKTOR ondalık virgüllü değer sayısı (talimat: virgüllü),talimat Bölüm 2 ve 12,29761,0,-29761,0,Tutmadı
+Kişi kimliği (hane + FERTNO) tekil,analist,0,0,0,0,Tuttu
+18+ PHQ maddelerinde kmap dışı kod,analist,0,0,0,0,Tuttu
+KRONIKHAST_ değişken sayısı,talimat Bölüm 12,22,22,0,0,Tuttu
+Kronik sayımına giren madde,talimat Bölüm 4,20,20,0,0,Tuttu
+Gelir grubu kesimleri (son bantlar),talimat Bölüm 4,"10, 13, 17, 19","10, 13, 17, 19","",0,Tuttu
+"Gün sayıları aralığı (yürüme, bisiklet, spor)",talimat Bölüm 4,"0–7, 0–7, 0–7","0–7, 0–7, 0–7","",0,Tuttu
+CV sızıntısı: birden çok katta yer alan hane (5 tekrar),talimat Bölüm 13,0,0,0,0,Tuttu
+CV: her model ve tekrarda herkesin tam bir dış kat tahmini var,analist,0,0,0,0,Tuttu
+CV: dış kat ile kişinin kat ataması uyumlu,talimat Bölüm 13,0,0,0,0,Tuttu
+Kapasite: her strateji ve c'de seçilen ağırlıklı pay = c,talimat Bölüm 7,0,0,0,0,Tuttu
+Kapasite: D = 1000 p Sens = 1000 c PPV (en büyük sapma < 1e−9),talimat Bölüm 13,0,0,0,0,Tuttu
+Bootstrap: her tekrarda yeniden örneklenen hane sayısı = H,analist,0,0,0,0,Tuttu
+Ağırlıklı AUC: WeightedROC ile ağırlıklı Mann–Whitney özdeşliği (en büyük fark < 1e−10),analist,0,0,0,0,Tuttu

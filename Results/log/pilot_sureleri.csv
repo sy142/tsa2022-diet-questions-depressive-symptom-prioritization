@@ -1,0 +1,9 @@
+deneme,dakika,durum
+"CPU 4 zincir × 4 iş parçacığı (reduce_sum), M2, tam veri, 300 + 300; derleme dahil",0.168,çalıştı
+"CPU 4 zincir × 4 iş parçacığı (reduce_sum), M2, tam veri, 300 + 300; derlenmiş",0.046,çalıştı
+"CPU 4 zincir × 1 iş parçacığı (glm), M2, tam veri, 300 + 300; derleme dahil",0.164,çalıştı
+"CPU 4 zincir × 1 iş parçacığı (glm), M2, tam veri, 300 + 300; derlenmiş",0.06,çalıştı
+"GPU OpenCL (brms opencl(c(0, 0))), M2, tam veri, 300 + 300",0.008,hata: Fitting failed. Unable to retrieve the metadata.
+"CPU 4 zincir × 1 iş parçacığı, M0, tam veri, 300 + 300; derleme dahil",0.111,çalıştı
+"Tek kat: M2 tekrar 1 kat 1, 4 zincir × 1 iş parçacığı, 1000 + 6000 (sıralı)",0.432,çalıştı
+"Kat paralelliği: M2 tekrar 1 kat 2–5, 4 eşzamanlı uyum × 4 zincir × 1 iş parçacığı, 1000 + 6000",0.934,çalıştı

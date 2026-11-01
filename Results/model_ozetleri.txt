@@ -1,0 +1,122 @@
+==== M0 (tam veri, n = 12842 )
+ Family: bernoulli 
+  Links: mu = logit 
+Formula: phq_pos ~ yas2 + yas3 + yas4 + cins2 + egt2 + egt3 + egt4 + gel2 + gel3 + gel4 + gel5 + kro1 + kro2 + kro3 
+   Data: veri (Number of observations: 12842) 
+  Draws: 4 chains, each with iter = 2500; warmup = 1000; thin = 1;
+         total post-warmup draws = 6000
+
+Regression Coefficients:
+          Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept    -3.47      0.18    -3.83    -3.12 1.00     5061     4197
+yas2         -0.57      0.14    -0.86    -0.29 1.00     4370     4563
+yas3         -0.82      0.15    -1.12    -0.53 1.00     4019     4444
+yas4         -0.65      0.16    -0.96    -0.34 1.00     3911     4385
+cins2         0.25      0.09     0.08     0.44 1.00     7506     4069
+egt2         -0.22      0.16    -0.54     0.09 1.00     6247     4413
+egt3         -0.08      0.14    -0.36     0.18 1.00     5764     4792
+egt4         -0.20      0.16    -0.53     0.11 1.00     5608     4726
+gel2         -0.28      0.12    -0.52    -0.05 1.00     6279     4870
+gel3         -0.59      0.13    -0.85    -0.33 1.00     5826     5041
+gel4         -0.60      0.14    -0.88    -0.33 1.00     6028     4423
+gel5         -0.77      0.16    -1.09    -0.46 1.00     5657     4704
+kro1          0.40      0.18     0.06     0.75 1.00     5431     4602
+kro2          1.01      0.18     0.67     1.36 1.00     5074     4762
+kro3          2.21      0.15     1.92     2.50 1.00     3890     4324
+
+Draws were sampled using sample(hmc). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
+
+==== M1 (tam veri, n = 12842 )
+ Family: bernoulli 
+  Links: mu = logit 
+Formula: phq_pos ~ yas2 + yas3 + yas4 + cins2 + egt2 + egt3 + egt4 + gel2 + gel3 + gel4 + gel5 + kro1 + kro2 + kro3 + mey3 + mey4 + mey5 + mey6 + seb3 + seb4 + seb5 + seb6 
+   Data: veri (Number of observations: 12842) 
+  Draws: 4 chains, each with iter = 2500; warmup = 1000; thin = 1;
+         total post-warmup draws = 6000
+
+Regression Coefficients:
+          Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept    -3.90      0.21    -4.30    -3.51 1.00     6404     4673
+yas2         -0.52      0.15    -0.81    -0.24 1.00     5423     5259
+yas3         -0.67      0.15    -0.97    -0.37 1.00     4454     4275
+yas4         -0.46      0.16    -0.77    -0.14 1.00     4266     4657
+cins2         0.30      0.10     0.12     0.49 1.00     8988     4425
+egt2         -0.22      0.16    -0.53     0.08 1.00     7295     4592
+egt3         -0.04      0.14    -0.32     0.22 1.00     6663     5032
+egt4         -0.14      0.17    -0.47     0.18 1.00     6527     4759
+gel2         -0.25      0.12    -0.48    -0.01 1.00     7691     4972
+gel3         -0.52      0.14    -0.79    -0.25 1.00     7711     4643
+gel4         -0.54      0.14    -0.81    -0.27 1.00     6492     5079
+gel5         -0.70      0.17    -1.03    -0.37 1.00     7562     4715
+kro1          0.38      0.18     0.03     0.74 1.00     7494     5089
+kro2          0.96      0.18     0.61     1.30 1.00     6167     5424
+kro3          2.13      0.15     1.84     2.42 1.00     4925     4688
+mey3         -0.13      0.17    -0.47     0.19 1.00     5799     5064
+mey4          0.50      0.13     0.24     0.77 1.00     5339     4510
+mey5          0.95      0.17     0.62     1.28 1.00     5947     4564
+mey6          1.11      0.25     0.61     1.59 1.00     7838     4881
+seb3          0.06      0.14    -0.23     0.34 1.00     6279     5265
+seb4         -0.03      0.13    -0.29     0.23 1.00     5693     5105
+seb5          0.23      0.22    -0.20     0.64 1.00     6636     4380
+seb6          0.80      0.32     0.16     1.42 1.00     8415     5257
+
+Draws were sampled using sample(hmc). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
+
+==== M2 (tam veri, n = 12842 )
+ Family: bernoulli 
+  Links: mu = logit 
+Formula: phq_pos ~ yas2 + yas3 + yas4 + cins2 + egt2 + egt3 + egt4 + gel2 + gel3 + gel4 + gel5 + kro1 + kro2 + kro3 + mey3 + mey4 + mey5 + mey6 + seb3 + seb4 + seb5 + seb6 + yurume + bisiklet + spor + fa2 + fa3 + yak2 + yak3 + yak4 + ilg4 + ilg3 + ilg2 + ilg6 + kom2 + kom3 + kom4 + kom5 
+   Data: veri (Number of observations: 12842) 
+  Draws: 4 chains, each with iter = 2500; warmup = 1000; thin = 1;
+         total post-warmup draws = 6000
+
+Regression Coefficients:
+          Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept    -2.93      0.31    -3.56    -2.32 1.00     5156     4795
+yas2         -0.46      0.15    -0.75    -0.17 1.00     4614     4699
+yas3         -0.61      0.15    -0.91    -0.31 1.00     3774     4377
+yas4         -0.49      0.16    -0.81    -0.16 1.00     3582     3997
+cins2         0.28      0.10     0.08     0.47 1.00     9091     5079
+egt2         -0.23      0.17    -0.56     0.09 1.00     7871     4721
+egt3         -0.07      0.14    -0.36     0.20 1.00     6055     4729
+egt4         -0.19      0.17    -0.52     0.14 1.00     5262     5154
+gel2         -0.20      0.12    -0.44     0.04 1.00     7908     4845
+gel3         -0.47      0.14    -0.74    -0.20 1.00     6653     4970
+gel4         -0.46      0.15    -0.76    -0.19 1.00     6856     4299
+gel5         -0.64      0.17    -0.98    -0.31 1.00     6215     4634
+kro1          0.36      0.18     0.01     0.72 1.00     6927     4650
+kro2          0.95      0.18     0.60     1.31 1.00     5548     4824
+kro3          2.06      0.15     1.77     2.36 1.00     3999     4632
+mey3         -0.16      0.17    -0.50     0.17 1.00     3985     4658
+mey4          0.49      0.14     0.21     0.76 1.00     3856     4480
+mey5          0.87      0.17     0.54     1.20 1.00     4840     4583
+mey6          0.88      0.26     0.37     1.37 1.00     6478     4830
+seb3          0.05      0.14    -0.24     0.32 1.00     4631     5064
+seb4         -0.08      0.14    -0.35     0.19 1.00     4269     4220
+seb5          0.18      0.22    -0.25     0.60 1.00     6022     4582
+seb6          0.73      0.33     0.08     1.38 1.00     7971     4802
+yurume       -0.06      0.02    -0.09    -0.02 1.00     9445     5119
+bisiklet      0.09      0.06    -0.04     0.21 1.00    11044     4635
+spor          0.07      0.05    -0.04     0.17 1.00     9601     4975
+fa2          -0.26      0.10    -0.46    -0.06 1.00     9732     4345
+fa3           0.07      0.24    -0.42     0.52 1.00     9556     4992
+yak2         -0.19      0.18    -0.54     0.18 1.00     4188     4468
+yak3         -0.27      0.19    -0.63     0.10 1.00     4044     4538
+yak4         -0.41      0.20    -0.80    -0.01 1.00     4411     4496
+ilg4         -0.42      0.16    -0.74    -0.11 1.00     3907     4082
+ilg3         -0.37      0.15    -0.68    -0.07 1.00     3510     4221
+ilg2         -0.18      0.18    -0.53     0.17 1.00     3870     4531
+ilg6         -0.07      0.21    -0.47     0.33 1.00     4613     4484
+kom2         -0.32      0.13    -0.57    -0.07 1.00     4361     4471
+kom3         -0.26      0.15    -0.56     0.04 1.00     4737     4476
+kom4          0.51      0.16     0.19     0.83 1.00     4897     4805
+kom5          0.93      0.21     0.52     1.34 1.00     6034     4911
+
+Draws were sampled using sample(hmc). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
+

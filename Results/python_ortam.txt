@@ -1,0 +1,7 @@
+Python 3.13.16 (~/veri-ortami/bin/python3)
+matplotlib 3.11.2
+numpy 2.5.4
+pandas 3.0.6
+openpyxl 3.1.5
+fonttools 4.67.0
+pillow 12.3.0
