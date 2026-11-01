@@ -1,0 +1,8 @@
+adim,kod,n,etiket,dislanan,dislanan_etiket
+1,ham,29761,Survey respondents (all ages),,""
+2,yetiskin,21444,Adults aged ≥ 18 years,8317,Aged < 18 years
+3,hekim,13676,Saw a general practitioner or family physician in the past 12 months,7768,No general practitioner or family physician visit in the past 12 months
+4,uygun,12843,"Eligible: no psychologist, psychotherapist or psychiatrist visit",833,Mental health specialist visit in the past 12 months
+5,analiz,12842,Analysis frame (complete predictors),1,Missing household income
+6,pozitif,581,PHQ-8 ≥ 10,,""
+7,hane,7725,Households in the analysis frame,,""

@@ -1,0 +1,40 @@
+{
+  "title": "Analysis code and aggregated outputs: two diet questions and capacity-constrained prioritization of adults for depressive-symptom assessment (Türkiye Health Survey 2022)",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Yılmaz, Salim",
+      "affiliation": "Acıbadem Mehmet Ali Aydınlar University",
+      "orcid": "0000-0003-2405-5084"
+    },
+    {
+      "name": "Günal, Ahmet Murat",
+      "affiliation": "Haliç University",
+      "orcid": "0000-0001-9109-1080"
+    }
+  ],
+  "description": "<p>Analysis code and aggregated outputs of a study of whether two questions on fruit and vegetable/salad consumption frequency improve the prioritization of adults for depressive-symptom assessment when only part of a primary care population can be invited, using the microdata of the 2022 Türkiye Health Survey (TurkStat). The eligible population comprises adults aged 18 years or older who saw a general practitioner or family physician in the past 12 months and reported no mental health specialist visit. Three Bayesian logistic models (brms with CmdStan) rank adults by their predicted probability of PHQ-8 ≥ 10 without any depressive-symptom item: routine characteristics (M0), plus the two diet questions (M1), and plus physical activity and social support (M2). Predictions come from household-blocked 10-fold cross-validation with five fold assignments; at each assessment capacity, adults are selected within folds at the weighted quantile with fractional inclusion of the boundary group. The primary measure is detection yield, the number of selected PHQ-8–positive adults per 1,000 eligible adults, with uncertainty from a paired household cluster bootstrap; random selection, perfect ranking and PHQ-2 ranking are comparators. Subgroup analyses, an equal selection proportion across income groups, sensitivity analyses, discrimination and calibration are included.</p><p>The archive includes the R and Python code, 2 main and 11 supplementary tables, 7 figures with their aggregated data, posterior draws of the full-data models with a scoring function, audit files, the analysis plan and an R package lock file. The repository contains no microdata; the TurkStat microdata must be obtained through TurkStat's official procedures. A manuscript based on this repository has been prepared for submission.</p>",
+  "keywords": [
+    "depressive symptoms",
+    "PHQ-8",
+    "prioritization",
+    "assessment capacity",
+    "fruit and vegetable consumption",
+    "primary care",
+    "prediction model",
+    "detection yield",
+    "Bayesian logistic regression",
+    "health survey",
+    "Türkiye"
+  ],
+  "license": "MIT",
+  "language": "eng",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/sy142/tsa2022-diet-questions-depressive-symptom-prioritization",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}

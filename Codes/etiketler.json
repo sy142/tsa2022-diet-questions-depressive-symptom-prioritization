@@ -1,0 +1,79 @@
+{
+  "sonuc": {
+    "kisa": "PHQ-8 positivity",
+    "uzun": "High depressive-symptom burden (PHQ-8 ≥ 10)",
+    "pozitif": "PHQ-8 ≥ 10",
+    "negatif": "PHQ-8 < 10"
+  },
+  "strateji": {
+    "rastgele": "Random selection",
+    "M0": "M0: routine characteristics",
+    "M1": "M1: M0 + two diet questions",
+    "M2": "M2: M1 + activity and social support",
+    "PHQ2": "PHQ-2 ranking",
+    "ideal": "Perfect ranking (population-level upper bound)",
+    "ideal_kat": "Perfect ranking within folds",
+    "PHQ2_3": "PHQ-2 ≥ 3 rule"
+  },
+  "strateji_kisa": {
+    "rastgele": "Random",
+    "M0": "M0",
+    "M1": "M1",
+    "M2": "M2",
+    "PHQ2": "PHQ-2",
+    "ideal": "Perfect ranking",
+    "ideal_kat": "Perfect ranking within folds",
+    "PHQ2_3": "PHQ-2 ≥ 3"
+  },
+  "phq2_nitelik": "symptom-based comparator sharing two items with the PHQ-8, not an upper bound",
+  "olcut": {
+    "D": "Detection yield (selected PHQ-8–positive adults per 1,000 eligible adults)",
+    "D_kisa": "Detection yield per 1,000",
+    "Sens": "Sensitivity at capacity",
+    "PPV": "PPV among selected",
+    "Delta": "Difference in detection yield per 1,000",
+    "kapasite": "Assessment capacity (weighted share of eligible adults invited)"
+  },
+  "degisken": {
+    "yas_g": "Age group, years",
+    "cins": "Sex",
+    "egitim": "Education",
+    "gelir5": "Household income group",
+    "kronik": "Number of reported chronic conditions other than depression and substance-use disorder",
+    "kronik_kisa": "Chronic conditions (count)",
+    "meyve": "Fruit consumption frequency",
+    "sebze": "Vegetable or salad consumption frequency",
+    "yurume": "Days per week walking ≥ 10 min for transport",
+    "bisiklet": "Days per week cycling ≥ 10 min for transport",
+    "spor": "Days per week of sport, fitness or leisure activity ≥ 10 min",
+    "faaliyet": "Physical demand of daily activities",
+    "yakin": "People to count on in a serious personal problem",
+    "ilgi": "Interest and concern shown by others",
+    "komsu": "Ease of getting practical help from neighbors",
+    "depresyon": "Self-reported depression in the past 12 months",
+    "yas_ns": "Age (natural spline, 3 df)"
+  },
+  "kategori": {
+    "yas_g": {"1": "18–34", "2": "35–49", "3": "50–64", "4": "≥ 65"},
+    "cins": {"1": "Men", "2": "Women"},
+    "egitim": {"1": "Primary or less", "2": "Lower secondary", "3": "Upper secondary", "4": "Tertiary"},
+    "gelir5": {"1": "1 (lowest)", "2": "2", "3": "3", "4": "4", "5": "5 (highest)"},
+    "kronik": {"0": "0", "1": "1", "2": "2", "3": "≥ 3"},
+    "siklik": {"7": "Daily or more", "3": "4–6 times per week", "4": "1–3 times per week", "5": "Less than once a week", "6": "Never"},
+    "faaliyet": {"1": "Mostly sitting or standing", "2": "Mostly walking or moderate effort", "3": "Mostly heavy labor or physically demanding work"},
+    "yakin": {"1": "None", "2": "1–2", "3": "3–5", "4": "≥ 6"},
+    "ilgi": {"5": "A lot", "4": "Some", "3": "Uncertain", "2": "Little", "6": "None"},
+    "komsu": {"1": "Very easy", "2": "Easy", "3": "Possible", "4": "Difficult", "5": "Very difficult"},
+    "depresyon": {"1": "Yes", "2": "No"}
+  },
+  "gun_satiri": {
+    "ort": "Days per week, mean (SD)",
+    "sifir": "None (0 days)"
+  },
+  "tablo": {
+    "toplam": "Total",
+    "n_yuzde": "n (%)",
+    "agirlik_notu": "n, unweighted count; %, weighted by the individual survey weight.",
+    "kucuk_hucre": "Estimates based on fewer than 20 unweighted observations are suppressed (–); ^{a} 20–50 unweighted observations."
+  }
+}
